@@ -17,6 +17,6 @@ REM Commit changes with a message (you can customize the commit message)
 git commit -m "Automated commit after successful build"
 
 REM Push to the remote repository (replace 'origin' and 'main' with your remote and branch names)
-git push https://github.com/CheesyKiller/ModularMayhem.git main
+git push https://github.com/CheesyKiller/ModularMayhem.git master
 ~~~
 

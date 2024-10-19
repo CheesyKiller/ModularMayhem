@@ -126,6 +126,12 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>git config --global credential.helper manager
+git add .
+git commit -m "Automated build commit %date% %time%"
+git push --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -148,6 +154,12 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>git config --global credential.helper manager
+git add .
+git commit -m "Automated build commit %date% %time%"
+git push --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp" />
