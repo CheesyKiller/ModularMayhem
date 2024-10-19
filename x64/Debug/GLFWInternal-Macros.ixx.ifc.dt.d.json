@@ -2,7 +2,7 @@
     "Version": "1.2",
     "Data": {
         "Source": "c:\\dev\\refinement\\refinement\\glfwinternal-macros.ixx",
-        "ProvidedModule": "GLFW:Internal_Macros",
+        "ProvidedModule": "GLFWInternal:Macros",
         "Includes": [],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -300,7 +300,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp" />
     <ClCompile Include="ALL_MODULES.ixx" />
     <ClCompile Include="BlenderObject-BlenderObjectData.ixx" />
     <ClCompile Include="BlenderObject-Material.ixx" />
@@ -352,11 +351,13 @@
     <ClCompile Include="GLAD_BASE.ixx" />
     <ClCompile Include="GLAD.cpp" />
     <ClCompile Include="GLAD.ixx" />
-    <ClCompile Include="GLFW-Internal_Macros.ixx" />
-    <ClCompile Include="GLFW-Internal_Types.ixx" />
+    <ClCompile Include="GLFW-Init.cpp" />
     <ClCompile Include="GLFW-Macros.ixx" />
     <ClCompile Include="GLFW-Types.ixx" />
     <ClCompile Include="GLFW.ixx" />
+    <ClCompile Include="GLFWInternal-Macros.ixx" />
+    <ClCompile Include="GLFWInternal-Types.ixx" />
+    <ClCompile Include="GLFWInternal.ixx" />
     <ClCompile Include="GLM.ixx" />
     <ClCompile Include="GLAD_1_0.ixx" />
     <ClCompile Include="GLFW-Init.ixx" />
@@ -370,9 +371,6 @@
     <ClCompile Include="Shader-Fragment.ixx" />
     <ClCompile Include="Shader-Vertex.cpp" />
     <ClCompile Include="Shader-Vertex.ixx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Internal.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

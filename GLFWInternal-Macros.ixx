@@ -1,4 +1,4 @@
-export module GLFW:Internal_Macros;
+export module GLFWInternal:Macros;
 
 export import GLFW:Macros;
 
