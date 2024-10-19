@@ -351,7 +351,7 @@
     <ClCompile Include="GLAD_BASE.ixx" />
     <ClCompile Include="GLAD.cpp" />
     <ClCompile Include="GLAD.ixx" />
-    <ClCompile Include="GLFW-Init.cpp" />
+    <ClCompile Include="GLFWInit.cpp" />
     <ClCompile Include="GLFW-Macros.ixx" />
     <ClCompile Include="GLFW-Types.ixx" />
     <ClCompile Include="GLFW.ixx" />
@@ -360,7 +360,7 @@
     <ClCompile Include="GLFWInternal.ixx" />
     <ClCompile Include="GLM.ixx" />
     <ClCompile Include="GLAD_1_0.ixx" />
-    <ClCompile Include="GLFW-Init.ixx" />
+    <ClCompile Include="GLFWInit.ixx" />
     <ClCompile Include="KHR-Enums.ixx" />
     <ClCompile Include="KHR-Macros.ixx" />
     <ClCompile Include="KHR-Types.ixx" />

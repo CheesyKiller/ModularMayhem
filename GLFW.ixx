@@ -57,7 +57,7 @@ import GLAD;
 
 import GLFW:Macros;
 import GLFW:Types;
-import GLFW:Init;
+import GLFWInit;
 
 	 /*************************************************************************
 	  * GLFW API functions

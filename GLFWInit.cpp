@@ -1,13 +1,11 @@
-import GLFW:Macros;
-import GLFW:Types;
-import GLFW:Init;
+import GLFWInit;
 
 #include <cstdlib>  // For malloc, free, realloc
 #include <cstdio>   // For printf
 #include <cstdarg>  // For va_list, va_start, va_end
 #include <cstring>  // For memset, strcpy
 #include <memory>   // For smart pointers (shared_ptr, unique_ptr)
-#include "internal.h"  // Internal GLFW structures and types
+import GLFWInternal;  // Internal GLFW structures and types
 
 // Global variables
 std::shared_ptr<_GLFWlibrary> _glfw = std::make_shared<_GLFWlibrary>();

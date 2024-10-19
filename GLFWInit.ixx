@@ -1,4 +1,4 @@
-export module GLFW:Init;
+export module GLFWInit;
 
 #if defined(GLFW_INCLUDE_VULKAN)
 import <vulkan/vulkan.h>;
