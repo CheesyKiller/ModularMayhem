@@ -1,0 +1,180 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\all_modules.ixx",
+        "ProvidedModule": "ALL_MODULES",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "GLAD",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_6",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_6.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_5",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_5.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_4",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_4.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_3.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_2.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_1.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_4_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_0.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_3_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_3.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_3_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_2.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_3_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_1.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_3_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_0.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_2_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_2_1.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_2_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_2_0.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_5",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_5.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_4",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_4.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_3.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_2.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_1.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_1_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_0.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_BASE",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_BASE:Macros",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE-Macros.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLAD_BASE:Types",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE-Types.ixx.ifc.dt"
+            },
+            {
+                "Name": "KHR",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR.ixx.ifc.dt"
+            },
+            {
+                "Name": "KHR:Enums",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Enums.ixx.ifc.dt"
+            },
+            {
+                "Name": "KHR:Macros",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Macros.ixx.ifc.dt"
+            },
+            {
+                "Name": "KHR:Types",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Types.ixx.ifc.dt"
+            },
+            {
+                "Name": "GLM",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLM.ixx.ifc.dt"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glm.hpp_8EFF73C9DC3462D.ifc.dt"
+            },
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\gtc\\matrix_transform.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\matrix_transform.hpp_AF7DB7BAED098EEB.ifc.dt"
+            },
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\gtc\\type_ptr.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\type_ptr.hpp_7F437E78FBF9DA90.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\iostream",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\iostream_EA65876FD4B01485.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\vector",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vector_8B01A153FC4AE44E.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\string",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\string_C9A381763A1331AC.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\limits",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\limits_258D1060A3BFE979.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\algorithm",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\algorithm_6ECB6371EF31C8B6.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\cmath",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\cmath_85C481CDA3A1AA9C.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\fstream",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\fstream_3A6DDFF1F88356B5.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\thread",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\thread_CA81D1DD63F86275.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\mutex",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\mutex_F95FA1B0B0B7ECA8.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\atomic",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\atomic_8948DCFACC7F8C4.ifc.dt"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\cstddef",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\cstddef_D8BF122499F4076E.ifc.dt"
+            }
+        ]
+    }
+}

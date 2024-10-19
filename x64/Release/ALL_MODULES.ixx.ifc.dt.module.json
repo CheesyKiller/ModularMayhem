@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\all_modules.ixx",
+        "ProvidedModule": "ALL_MODULES",
+        "ImportedModules": [
+            "KHR",
+            "GLAD",
+            "GLFW",
+            "GLM"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

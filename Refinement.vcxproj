@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c2989d25-64c8-47be-9a34-db18c3b2ccea}</ProjectGuid>
+    <RootNamespace>Refinement</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AllProjectBMIsArePublic>false</AllProjectBMIsArePublic>
+    <IncludePath>C:\PersonalAddonsForCPP\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PersonalAddonsForCPP\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AllProjectBMIsArePublic>false</AllProjectBMIsArePublic>
+    <IncludePath>C:\PersonalAddonsForCPP\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\PersonalAddonsForCPP\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <BuildStlModules>true</BuildStlModules>
+      <AdditionalModuleDependencies>
+      </AdditionalModuleDependencies>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AdditionalModuleDependencies>
+      </AdditionalModuleDependencies>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp" />
+    <ClCompile Include="ALL_MODULES.ixx" />
+    <ClCompile Include="BlenderObject-BlenderObjectData.ixx" />
+    <ClCompile Include="BlenderObject-Material.ixx" />
+    <ClCompile Include="BlenderObject-ShapeKey.ixx" />
+    <ClCompile Include="BlenderObject-ShapeKeyFrame.ixx" />
+    <ClCompile Include="BlenderObject-TransformKeyFrame.ixx" />
+    <ClCompile Include="BlenderObject.cpp" />
+    <ClCompile Include="BlenderObject.ixx" />
+    <ClCompile Include="GLAD_1_0.cpp" />
+    <ClCompile Include="GLAD_1_1.cpp" />
+    <ClCompile Include="GLAD_1_1.ixx" />
+    <ClCompile Include="GLAD_1_2.cpp" />
+    <ClCompile Include="GLAD_1_2.ixx" />
+    <ClCompile Include="GLAD_1_3.cpp" />
+    <ClCompile Include="GLAD_1_3.ixx" />
+    <ClCompile Include="GLAD_1_4.cpp" />
+    <ClCompile Include="GLAD_1_4.ixx" />
+    <ClCompile Include="GLAD_1_5.cpp" />
+    <ClCompile Include="GLAD_1_5.ixx" />
+    <ClCompile Include="GLAD_2_0.cpp" />
+    <ClCompile Include="GLAD_2_0.ixx" />
+    <ClCompile Include="GLAD_2_1.cpp" />
+    <ClCompile Include="GLAD_2_1.ixx" />
+    <ClCompile Include="GLAD_3_0.cpp" />
+    <ClCompile Include="GLAD_3_0.ixx" />
+    <ClCompile Include="GLAD_3_1.cpp" />
+    <ClCompile Include="GLAD_3_1.ixx" />
+    <ClCompile Include="GLAD_3_2.cpp" />
+    <ClCompile Include="GLAD_3_2.ixx" />
+    <ClCompile Include="GLAD_3_3.cpp" />
+    <ClCompile Include="GLAD_3_3.ixx" />
+    <ClCompile Include="GLAD_4_0.cpp" />
+    <ClCompile Include="GLAD_4_0.ixx" />
+    <ClCompile Include="GLAD_4_1.cpp" />
+    <ClCompile Include="GLAD_4_1.ixx" />
+    <ClCompile Include="GLAD_4_2.cpp" />
+    <ClCompile Include="GLAD_4_2.ixx" />
+    <ClCompile Include="GLAD_4_3.cpp" />
+    <ClCompile Include="GLAD_4_3.ixx" />
+    <ClCompile Include="GLAD_4_4.cpp" />
+    <ClCompile Include="GLAD_4_4.ixx" />
+    <ClCompile Include="GLAD_4_5.cpp" />
+    <ClCompile Include="GLAD_4_5.ixx" />
+    <ClCompile Include="GLAD_4_6.cpp" />
+    <ClCompile Include="GLAD_4_6.ixx" />
+    <ClCompile Include="GLAD_BASE-Macros.ixx" />
+    <ClCompile Include="GLAD_BASE-Types.ixx" />
+    <ClCompile Include="GLAD_BASE.cpp" />
+    <ClCompile Include="GLAD_BASE.ixx" />
+    <ClCompile Include="GLAD.cpp" />
+    <ClCompile Include="GLAD.ixx" />
+    <ClCompile Include="GLFW-Internal_Macros.ixx" />
+    <ClCompile Include="GLFW-Internal_Types.ixx" />
+    <ClCompile Include="GLFW-Macros.ixx" />
+    <ClCompile Include="GLFW-Types.ixx" />
+    <ClCompile Include="GLFW.ixx" />
+    <ClCompile Include="GLM.ixx" />
+    <ClCompile Include="GLAD_1_0.ixx" />
+    <ClCompile Include="GLFW-Init.ixx" />
+    <ClCompile Include="KHR-Enums.ixx" />
+    <ClCompile Include="KHR-Macros.ixx" />
+    <ClCompile Include="KHR-Types.ixx" />
+    <ClCompile Include="KHR.ixx" />
+    <ClCompile Include="Refinement.cpp" />
+    <ClCompile Include="BlenderObject-Triangle.ixx" />
+    <ClCompile Include="Shader-Fragment.cpp" />
+    <ClCompile Include="Shader-Fragment.ixx" />
+    <ClCompile Include="Shader-Vertex.cpp" />
+    <ClCompile Include="Shader-Vertex.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Internal.ixx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\temp.h",
+        "ProvidedModule": "",
+        "ImportedModules": [
+            "GLFW"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

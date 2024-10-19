@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\glfw.h",
+        "ProvidedModule": "",
+        "ImportedModules": [
+            "GLAD",
+            "GLFW"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject-transformkeyframe.ixx",
+        "ProvidedModule": "BlenderObject_TransformKeyFrame",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            "C:\\PersonalAddonsForCPP\\include\\glm\\vec3.hpp"
+        ]
+    }
+}

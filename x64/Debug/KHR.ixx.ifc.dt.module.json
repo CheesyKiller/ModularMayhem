@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\khr.ixx",
+        "ProvidedModule": "KHR",
+        "ImportedModules": [
+            "KHR:Macros",
+            "KHR:Types",
+            "KHR:Enums"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

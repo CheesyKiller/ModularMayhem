@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Module Files">
+      <UniqueIdentifier>{166963b4-7067-4dec-b23f-2f40c63b2c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\KHR">
+      <UniqueIdentifier>{f0bd3a9f-b453-4393-abe2-2ad4b849e6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLAD">
+      <UniqueIdentifier>{f64094e1-47b6-457d-9a23-640ef75e3112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLAD\1">
+      <UniqueIdentifier>{60e99226-56c1-4fc7-b4ad-e5cfec39627e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLAD\2">
+      <UniqueIdentifier>{f3ef474e-8b1e-41e0-be6f-aebf0881dcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLAD\3">
+      <UniqueIdentifier>{5880d7aa-1c34-4ed7-b747-61cd12553599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLAD\4">
+      <UniqueIdentifier>{361998a6-d405-4f74-9cbf-dad9cdfa2f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4">
+      <UniqueIdentifier>{12c991c2-b76d-40fc-96a0-8b5c96dd4be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\init">
+      <UniqueIdentifier>{63e75bf1-a1a5-4119-ab54-71453a24f025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\internal">
+      <UniqueIdentifier>{8902f7de-fa6f-464a-bac2-92da4f20c251}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Refinement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLM.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ALL_MODULES.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-BlenderObjectData.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-Triangle.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-ShapeKey.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-ShapeKeyFrame.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-TransformKeyFrame.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject-Material.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlenderObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader-Vertex.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader-Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader-Fragment.ixx">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader-Fragment.cpp">
+      <Filter>Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KHR.ixx">
+      <Filter>Module Files\KHR</Filter>
+    </ClCompile>
+    <ClCompile Include="KHR-Enums.ixx">
+      <Filter>Module Files\KHR</Filter>
+    </ClCompile>
+    <ClCompile Include="KHR-Macros.ixx">
+      <Filter>Module Files\KHR</Filter>
+    </ClCompile>
+    <ClCompile Include="KHR-Types.ixx">
+      <Filter>Module Files\KHR</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_BASE.ixx">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_BASE-Types.ixx">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_BASE-Macros.ixx">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_0.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_0.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_1.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_1.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_2.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_2.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_3.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_4.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_5.ixx">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_3.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_4.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_1_5.cpp">
+      <Filter>Module Files\GLAD\1</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_2_0.ixx">
+      <Filter>Module Files\GLAD\2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_2_1.ixx">
+      <Filter>Module Files\GLAD\2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_2_0.cpp">
+      <Filter>Module Files\GLAD\2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_2_1.cpp">
+      <Filter>Module Files\GLAD\2</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_0.ixx">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_1.ixx">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_2.ixx">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_3.ixx">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_0.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_1.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_2.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_3.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_4.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_5.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_6.ixx">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_0.cpp">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_1.cpp">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_2.cpp">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_3_3.cpp">
+      <Filter>Module Files\GLAD\3</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_0.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_1.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_2.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_3.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_4.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_5.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_4_6.cpp">
+      <Filter>Module Files\GLAD\4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD.ixx">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD.cpp">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD_BASE.cpp">
+      <Filter>Module Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW-Macros.ixx">
+      <Filter>Module Files\GLFW-3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW.ixx">
+      <Filter>Module Files\GLFW-3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW-Types.ixx">
+      <Filter>Module Files\GLFW-3.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp">
+      <Filter>Module Files\GLFW-3.4\init</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW-Init.ixx">
+      <Filter>Module Files\GLFW-3.4\init</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW-Internal_Macros.ixx">
+      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW-Internal_Types.ixx">
+      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Internal.ixx">
+      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

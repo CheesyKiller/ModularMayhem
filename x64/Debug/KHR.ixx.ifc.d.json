@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\khr.ixx",
+        "ProvidedModule": "KHR",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "KHR:Macros",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Macros.ixx.ifc"
+            },
+            {
+                "Name": "KHR:Types",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Types.ixx.ifc"
+            },
+            {
+                "Name": "KHR:Enums",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\KHR-Enums.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\cstdint",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\cstdint_A3SXT74KIJL6TH1Y.ifc"
+            }
+        ]
+    }
+}
