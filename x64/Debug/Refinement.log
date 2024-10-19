@@ -1,0 +1,183 @@
+﻿  Git credential helper configured.
+  Changes staged.
+  [master 692c492] Automated build commit
+   134 files changed, 3517 insertions(+), 8 deletions(-)
+   create mode 100644 Bash_Scripts/git_auto_commit.bat
+   create mode 100644 Bash_Scripts/git_squash_then_push.bat
+   create mode 100644 x64/Debug/BlenderObject-Triangle.ixx.ifc.d.json
+   create mode 100644 x64/Debug/GLFW-Init.ixx.ifc.d.json
+   create mode 100644 x64/Debug/GLFW-Macros.ixx.ifc
+   create mode 100644 x64/Debug/GLFW-Macros.ixx.ifc.d.json
+   create mode 100644 x64/Debug/GLFW-Macros.ixx.obj
+   create mode 100644 x64/Debug/GLFW-Types.ixx.ifc
+   create mode 100644 x64/Debug/GLFW-Types.ixx.ifc.d.json
+   create mode 100644 x64/Debug/GLFW-Types.ixx.obj
+   create mode 100644 x64/Debug/Refinement.tlog/CL.command.1.tlog
+   create mode 100644 x64/Debug/Refinement.tlog/Microsoft.Build.CPPTasks.CL.read.1.tlog
+   create mode 100644 x64/Debug/Refinement.tlog/Microsoft.Build.CPPTasks.CL.write.1.tlog
+   create mode 100644 x64/Debug/Refinement_MD.tlog/CL.command.1.tlog
+   create mode 100644 x64/Debug/Refinement_MD.tlog/Microsoft.Build.CPPTasks.CL.read.1.tlog
+   create mode 100644 x64/Debug/Refinement_MD.tlog/Microsoft.Build.CPPTasks.CL.write.1.tlog
+   create mode 100644 x64/Debug/algorithm_J4SEPIAANYKU1WYO.ifc
+   create mode 100644 x64/Debug/algorithm_J4SEPIAANYKU1WYO.ifc.d.json
+   create mode 100644 x64/Debug/algorithm_J4SEPIAANYKU1WYO.module.json
+   create mode 100644 x64/Debug/algorithm_J4SEPIAANYKU1WYO.obj
+   create mode 100644 x64/Debug/all_modules.ixx.module.json
+   create mode 100644 x64/Debug/atomic_MKJF137ZTWOZPFDN.ifc
+   create mode 100644 x64/Debug/atomic_MKJF137ZTWOZPFDN.ifc.d.json
+   create mode 100644 x64/Debug/atomic_MKJF137ZTWOZPFDN.module.json
+   create mode 100644 x64/Debug/atomic_MKJF137ZTWOZPFDN.obj
+   create mode 100644 x64/Debug/blenderobject-blenderobjectdata.ixx.module.json
+   create mode 100644 x64/Debug/blenderobject-material.ixx.module.json
+   create mode 100644 x64/Debug/blenderobject-shapekey.ixx.module.json
+   create mode 100644 x64/Debug/blenderobject-shapekeyframe.ixx.module.json
+   create mode 100644 x64/Debug/blenderobject-transformkeyframe.ixx.module.json
+   create mode 100644 x64/Debug/blenderobject.ixx.module.json
+   create mode 100644 x64/Debug/cmath_GXU9QLDIW1M5IFD5.ifc
+   create mode 100644 x64/Debug/cmath_GXU9QLDIW1M5IFD5.ifc.d.json
+   create mode 100644 x64/Debug/cmath_GXU9QLDIW1M5IFD5.module.json
+   create mode 100644 x64/Debug/cmath_GXU9QLDIW1M5IFD5.obj
+   create mode 100644 x64/Debug/cstddef_7OHNU1F9735L2VY2.ifc
+   create mode 100644 x64/Debug/cstddef_7OHNU1F9735L2VY2.ifc.d.json
+   create mode 100644 x64/Debug/cstddef_7OHNU1F9735L2VY2.module.json
+   create mode 100644 x64/Debug/cstddef_7OHNU1F9735L2VY2.obj
+   create mode 100644 x64/Debug/cstdint_A3SXT74KIJL6TH1Y.ifc
+   create mode 100644 x64/Debug/cstdint_A3SXT74KIJL6TH1Y.ifc.d.json
+   create mode 100644 x64/Debug/cstdint_A3SXT74KIJL6TH1Y.module.json
+   create mode 100644 x64/Debug/cstdint_A3SXT74KIJL6TH1Y.obj
+   create mode 100644 x64/Debug/fstream_CC1NQJKCCD0FO3R8.ifc
+   create mode 100644 x64/Debug/fstream_CC1NQJKCCD0FO3R8.ifc.d.json
+   create mode 100644 x64/Debug/fstream_CC1NQJKCCD0FO3R8.module.json
+   create mode 100644 x64/Debug/fstream_CC1NQJKCCD0FO3R8.obj
+   create mode 100644 x64/Debug/glad.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_0.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_1.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_2.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_3.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_4.ixx.module.json
+   create mode 100644 x64/Debug/glad_1_5.ixx.module.json
+   create mode 100644 x64/Debug/glad_2_0.ixx.module.json
+   create mode 100644 x64/Debug/glad_2_1.ixx.module.json
+   create mode 100644 x64/Debug/glad_3_0.ixx.module.json
+   create mode 100644 x64/Debug/glad_3_1.ixx.module.json
+   create mode 100644 x64/Debug/glad_3_2.ixx.module.json
+   create mode 100644 x64/Debug/glad_3_3.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_0.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_1.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_2.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_3.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_4.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_5.ixx.module.json
+   create mode 100644 x64/Debug/glad_4_6.ixx.module.json
+   create mode 100644 x64/Debug/glad_base-macros.ixx.module.json
+   create mode 100644 x64/Debug/glad_base-types.ixx.module.json
+   create mode 100644 x64/Debug/glad_base.ixx.module.json
+   create mode 100644 x64/Debug/glfw-init.ixx.module.json
+   create mode 100644 x64/Debug/glfw-macros.ixx.module.json
+   create mode 100644 x64/Debug/glfw-types.ixx.module.json
+   create mode 100644 x64/Debug/glfw.ixx.module.json
+   create mode 100644 x64/Debug/glfw3.h_RX89OZT76MJLTEAY.ifc
+   create mode 100644 x64/Debug/glfw3.h_RX89OZT76MJLTEAY.ifc.d.json
+   create mode 100644 x64/Debug/glfw3.h_RX89OZT76MJLTEAY.module.json
+   create mode 100644 x64/Debug/glfw3.h_RX89OZT76MJLTEAY.obj
+   create mode 100644 x64/Debug/glm.hpp_WICTAOQK3NROXI98.ifc
+   create mode 100644 x64/Debug/glm.hpp_WICTAOQK3NROXI98.ifc.d.json
+   create mode 100644 x64/Debug/glm.hpp_WICTAOQK3NROXI98.module.json
+   create mode 100644 x64/Debug/glm.hpp_WICTAOQK3NROXI98.obj
+   create mode 100644 x64/Debug/glm.ixx.module.json
+   create mode 100644 x64/Debug/iostream_KTPLHOCEDX7YBZWE.ifc
+   create mode 100644 x64/Debug/iostream_KTPLHOCEDX7YBZWE.ifc.d.json
+   create mode 100644 x64/Debug/iostream_KTPLHOCEDX7YBZWE.module.json
+   create mode 100644 x64/Debug/iostream_KTPLHOCEDX7YBZWE.obj
+   create mode 100644 x64/Debug/khr-enums.ixx.module.json
+   create mode 100644 x64/Debug/khr-macros.ixx.module.json
+   create mode 100644 x64/Debug/khr-types.ixx.module.json
+   create mode 100644 x64/Debug/khr.ixx.module.json
+   create mode 100644 x64/Debug/limits_ZVX8EE72Z68LGBUT.ifc
+   create mode 100644 x64/Debug/limits_ZVX8EE72Z68LGBUT.ifc.d.json
+   create mode 100644 x64/Debug/limits_ZVX8EE72Z68LGBUT.module.json
+   create mode 100644 x64/Debug/limits_ZVX8EE72Z68LGBUT.obj
+   create mode 100644 x64/Debug/matrix_transform.hpp_RN5UY756UFKVAERW.ifc
+   create mode 100644 x64/Debug/matrix_transform.hpp_RN5UY756UFKVAERW.ifc.d.json
+   create mode 100644 x64/Debug/matrix_transform.hpp_RN5UY756UFKVAERW.module.json
+   create mode 100644 x64/Debug/matrix_transform.hpp_RN5UY756UFKVAERW.obj
+   create mode 100644 x64/Debug/mutex_4YYJ92O7ZSC1O0G8.ifc
+   create mode 100644 x64/Debug/mutex_4YYJ92O7ZSC1O0G8.ifc.d.json
+   create mode 100644 x64/Debug/mutex_4YYJ92O7ZSC1O0G8.module.json
+   create mode 100644 x64/Debug/mutex_4YYJ92O7ZSC1O0G8.obj
+   create mode 100644 x64/Debug/stddef.h_BY56CWISNLPIA8S2.ifc
+   create mode 100644 x64/Debug/stddef.h_BY56CWISNLPIA8S2.ifc.d.json
+   create mode 100644 x64/Debug/stddef.h_BY56CWISNLPIA8S2.module.json
+   create mode 100644 x64/Debug/stddef.h_BY56CWISNLPIA8S2.obj
+   create mode 100644 x64/Debug/stdint.h_XHUJS0AFTYAA3WXC.ifc
+   create mode 100644 x64/Debug/stdint.h_XHUJS0AFTYAA3WXC.ifc.d.json
+   create mode 100644 x64/Debug/stdint.h_XHUJS0AFTYAA3WXC.module.json
+   create mode 100644 x64/Debug/stdint.h_XHUJS0AFTYAA3WXC.obj
+   create mode 100644 x64/Debug/string_GT02E4T140807UCG.ifc
+   create mode 100644 x64/Debug/string_GT02E4T140807UCG.ifc.d.json
+   create mode 100644 x64/Debug/string_GT02E4T140807UCG.module.json
+   create mode 100644 x64/Debug/string_GT02E4T140807UCG.obj
+   create mode 100644 x64/Debug/thread_G04NP4C7VPS2ZZAC.ifc
+   create mode 100644 x64/Debug/thread_G04NP4C7VPS2ZZAC.ifc.d.json
+   create mode 100644 x64/Debug/thread_G04NP4C7VPS2ZZAC.module.json
+   create mode 100644 x64/Debug/thread_G04NP4C7VPS2ZZAC.obj
+   create mode 100644 x64/Debug/type_ptr.hpp_ZALN90Q097340440.ifc
+   create mode 100644 x64/Debug/type_ptr.hpp_ZALN90Q097340440.ifc.d.json
+   create mode 100644 x64/Debug/type_ptr.hpp_ZALN90Q097340440.module.json
+   create mode 100644 x64/Debug/type_ptr.hpp_ZALN90Q097340440.obj
+   create mode 100644 x64/Debug/vc143.idb
+   create mode 100644 x64/Debug/vc143.pdb
+   create mode 100644 x64/Debug/vec3.hpp_3YWJMZVKE1GNXHSI.ifc
+   create mode 100644 x64/Debug/vec3.hpp_3YWJMZVKE1GNXHSI.ifc.d.json
+   create mode 100644 x64/Debug/vec3.hpp_3YWJMZVKE1GNXHSI.module.json
+   create mode 100644 x64/Debug/vec3.hpp_3YWJMZVKE1GNXHSI.obj
+   create mode 100644 x64/Debug/vector_GDGH8LXPB6233BGE.ifc
+   create mode 100644 x64/Debug/vector_GDGH8LXPB6233BGE.ifc.d.json
+   create mode 100644 x64/Debug/vector_GDGH8LXPB6233BGE.module.json
+   create mode 100644 x64/Debug/vector_GDGH8LXPB6233BGE.obj
+  Changes committed successfully.
+  Scanning sources for module dependencies...
+  std.ixx
+  GLFW-Internal_Types.ixx
+  GLFW-Internal_Macros.ixx
+  Shader-Fragment.ixx
+  std.compat.ixx
+  Shader-Vertex.ixx
+  BlenderObject-Triangle.ixx
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  Compiling...
+  GLFW-Internal_Types.ixx
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+  BlenderObject-ShapeKeyFrame.ixx
+  BlenderObject-Material.ixx
+  KHR-Types.ixx
+  GLFW-Init.ixx
+  KHR-Macros.ixx
+  GLFW-Internal_Macros.ixx
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+  Shader-Fragment.ixx
+  GLM.ixx
+  BlenderObject-Triangle.ixx
+  Shader-Vertex.ixx
+  BlenderObject-TransformKeyFrame.ixx
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2230: could not find module 'GLFW'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2230: could not find module 'GLFW'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,50): error C2143: syntax error: missing ',' before '*'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,21): error C2146: syntax error: missing ';' before identifier 'glfwSetErrorCallback'

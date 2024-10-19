@@ -5,6 +5,11 @@
         "ProvidedModule": "BlenderObject_Triangle",
         "Includes": [],
         "ImportedModules": [],
-        "ImportedHeaderUnits": []
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glm.hpp_WICTAOQK3NROXI98.ifc"
+            }
+        ]
     }
 }
