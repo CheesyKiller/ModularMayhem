@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\khr-types.ixx",
+        "ProvidedModule": "KHR:Types",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

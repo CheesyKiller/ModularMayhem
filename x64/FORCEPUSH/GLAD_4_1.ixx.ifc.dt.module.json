@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\glad_4_1.ixx",
+        "ProvidedModule": "GLAD_4_1",
+        "ImportedModules": [
+            "GLAD_4_0"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

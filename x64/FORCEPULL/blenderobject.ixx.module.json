@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPULL\\BlenderObject.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vc143.pdb",
+                "x64\\FORCEPULL\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\BlenderObject.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "BlenderObject",
+                    "source-path": "c:\\dev\\refinement\\refinement\\blenderobject.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "BlenderObject_Triangle"
+                },
+                {
+                    "logical-name": "BlenderObject_BlenderObjectData"
+                },
+                {
+                    "logical-name": "GLFW/glfw3.h",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\GLFW\\glfw3.h",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

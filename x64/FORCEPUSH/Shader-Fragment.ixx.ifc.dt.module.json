@@ -1,0 +1,9 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\shader-fragment.ixx",
+        "ProvidedModule": "Shader_Fragment",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject-blenderobjectdata.ixx",
+        "ProvidedModule": "BlenderObject_BlenderObjectData",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

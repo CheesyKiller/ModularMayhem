@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPULL\\glm.hpp_WICTAOQK3NROXI98.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vc143.pdb",
+                "x64\\FORCEPULL\\glm.hpp_WICTAOQK3NROXI98.module.json",
+                "x64\\FORCEPULL\\glm.hpp_WICTAOQK3NROXI98.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\PersonalAddonsForCPP\\include\\glm\\glm.hpp",
+                    "source-path": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

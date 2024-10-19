@@ -1,0 +1,9 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\glfw-types.ixx",
+        "ProvidedModule": "GLFW:Types",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

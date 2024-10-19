@@ -1,0 +1,599 @@
+﻿  Git credential helper configured.
+  Changes staged.
+  [master 807d73d] Automated build commit
+   236 files changed, 3738 insertions(+), 1 deletion(-)
+   create mode 100644 x64/Debug/BlenderObject-Material.ixx.ifc
+   create mode 100644 x64/Debug/BlenderObject-Material.ixx.ifc.d.json
+   create mode 100644 x64/Debug/BlenderObject-Material.ixx.obj
+   create mode 100644 x64/Debug/BlenderObject-ShapeKeyFrame.ixx.ifc
+   create mode 100644 x64/Debug/BlenderObject-ShapeKeyFrame.ixx.ifc.d.json
+   create mode 100644 x64/Debug/BlenderObject-ShapeKeyFrame.ixx.obj
+   create mode 100644 x64/Debug/BlenderObject-TransformKeyFrame.ixx.ifc
+   create mode 100644 x64/Debug/BlenderObject-TransformKeyFrame.ixx.ifc.d.json
+   create mode 100644 x64/Debug/BlenderObject-TransformKeyFrame.ixx.obj
+   create mode 100644 x64/Debug/BlenderObject-Triangle.ixx.ifc
+   create mode 100644 x64/Debug/BlenderObject-Triangle.ixx.obj
+   create mode 100644 x64/Debug/GLM.ixx.ifc
+   create mode 100644 x64/Debug/GLM.ixx.ifc.d.json
+   create mode 100644 x64/Debug/GLM.ixx.obj
+   create mode 100644 x64/Debug/KHR-Macros.ixx.ifc
+   create mode 100644 x64/Debug/KHR-Macros.ixx.ifc.d.json
+   create mode 100644 x64/Debug/KHR-Macros.ixx.obj
+   create mode 100644 x64/Debug/KHR-Types.ixx.ifc
+   create mode 100644 x64/Debug/KHR-Types.ixx.ifc.d.json
+   create mode 100644 x64/Debug/KHR-Types.ixx.obj
+   create mode 100644 x64/Debug/Shader-Fragment.ixx.ifc
+   create mode 100644 x64/Debug/Shader-Fragment.ixx.ifc.d.json
+   create mode 100644 x64/Debug/Shader-Fragment.ixx.obj
+   create mode 100644 x64/Debug/Shader-Vertex.ixx.ifc
+   create mode 100644 x64/Debug/Shader-Vertex.ixx.ifc.d.json
+   create mode 100644 x64/Debug/Shader-Vertex.ixx.obj
+   create mode 100644 x64/Debug/blenderobject-triangle.ixx.module.json
+   create mode 100644 x64/Debug/microsoft/STL/std.compat.ixx.module.json
+   create mode 100644 x64/Debug/microsoft/STL/std.ixx.module.json
+   create mode 100644 x64/Debug/shader-fragment.ixx.module.json
+   create mode 100644 x64/Debug/shader-vertex.ixx.module.json
+   create mode 100644 x64/FORCEPULL/ALL_MODULES.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/ALL_MODULES.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/ALL_MODULES.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-BlenderObjectData.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-BlenderObjectData.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-BlenderObjectData.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-Material.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-Material.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-Material.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKey.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKey.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKey.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKeyFrame.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKeyFrame.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-ShapeKeyFrame.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-TransformKeyFrame.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-TransformKeyFrame.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-TransformKeyFrame.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject-Triangle.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-Triangle.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject-Triangle.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/BlenderObject.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/BlenderObject.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/BlenderObject.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_0.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_0.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_0.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_1.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_1.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_1.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_2.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_2.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_2.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_3.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_3.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_3.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_4.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_4.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_4.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_1_5.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_5.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_1_5.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_2_0.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_2_0.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_2_0.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_2_1.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_2_1.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_2_1.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_3_0.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_0.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_0.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_3_1.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_1.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_1.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_3_2.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_2.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_2.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_3_3.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_3.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_3_3.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_0.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_0.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_0.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_1.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_1.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_1.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_2.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_2.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_2.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_3.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_3.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_3.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_4.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_4.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_4.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_5.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_5.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_5.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_4_6.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_6.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_4_6.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Macros.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Macros.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Macros.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Types.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Types.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE-Types.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLAD_BASE.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLAD_BASE.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLFW-Init.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLFW-Init.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLFW-Init.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLFW-Macros.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLFW-Macros.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLFW-Macros.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLFW-Types.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLFW-Types.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLFW-Types.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLFW.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLFW.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLFW.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/GLM.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/GLM.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/GLM.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/KHR-Enums.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/KHR-Enums.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/KHR-Enums.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/KHR-Macros.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/KHR-Macros.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/KHR-Macros.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/KHR-Types.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/KHR-Types.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/KHR-Types.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/KHR.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/KHR.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/KHR.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/Refinement.log
+   create mode 100644 x64/FORCEPULL/Refinement.tlog/Refinement.lastbuildstate
+   create mode 100644 x64/FORCEPULL/Refinement.tlog/unsuccessfulbuild
+   create mode 100644 x64/FORCEPULL/Shader-Fragment.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/Shader-Fragment.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/Shader-Fragment.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/Shader-Vertex.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/Shader-Vertex.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/Shader-Vertex.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/algorithm_6ECB6371EF31C8B6.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/algorithm_6ECB6371EF31C8B6.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/algorithm_6ECB6371EF31C8B6.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/atomic_8948DCFACC7F8C4.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/atomic_8948DCFACC7F8C4.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/atomic_8948DCFACC7F8C4.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/cmath_85C481CDA3A1AA9C.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/cmath_85C481CDA3A1AA9C.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/cmath_85C481CDA3A1AA9C.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/cstddef_D8BF122499F4076E.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/cstddef_D8BF122499F4076E.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/cstddef_D8BF122499F4076E.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/cstdint_AD872324817FB8E0.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/cstdint_AD872324817FB8E0.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/cstdint_AD872324817FB8E0.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/fstream_3A6DDFF1F88356B5.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/fstream_3A6DDFF1F88356B5.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/fstream_3A6DDFF1F88356B5.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/glfw-internal_macros.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/glfw-internal_types.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/glfw3.h_1C4137E9DB4F4E4A.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/glfw3.h_1C4137E9DB4F4E4A.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/glfw3.h_1C4137E9DB4F4E4A.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/glm.hpp_8EFF73C9DC3462D.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/glm.hpp_8EFF73C9DC3462D.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/glm.hpp_8EFF73C9DC3462D.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/iostream_EA65876FD4B01485.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/iostream_EA65876FD4B01485.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/iostream_EA65876FD4B01485.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/limits_258D1060A3BFE979.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/limits_258D1060A3BFE979.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/limits_258D1060A3BFE979.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/matrix_transform.hpp_AF7DB7BAED098EEB.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/matrix_transform.hpp_AF7DB7BAED098EEB.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/matrix_transform.hpp_AF7DB7BAED098EEB.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.compat.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.compat.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.compat.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.ixx.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.ixx.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/microsoft/STL/std.ixx.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/mutex_F95FA1B0B0B7ECA8.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/mutex_F95FA1B0B0B7ECA8.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/mutex_F95FA1B0B0B7ECA8.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/stddef.h_C2184792797929FB.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/stddef.h_C2184792797929FB.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/stddef.h_C2184792797929FB.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/stdint.h_9CB3E56414CC67A9.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/stdint.h_9CB3E56414CC67A9.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/stdint.h_9CB3E56414CC67A9.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/string_C9A381763A1331AC.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/string_C9A381763A1331AC.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/string_C9A381763A1331AC.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/thread_CA81D1DD63F86275.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/thread_CA81D1DD63F86275.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/thread_CA81D1DD63F86275.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/type_ptr.hpp_7F437E78FBF9DA90.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/type_ptr.hpp_7F437E78FBF9DA90.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/type_ptr.hpp_7F437E78FBF9DA90.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/vec3.hpp_7AD02B3C9A19CBF6.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/vec3.hpp_7AD02B3C9A19CBF6.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/vec3.hpp_7AD02B3C9A19CBF6.ifc.dt.module.json.command
+   create mode 100644 x64/FORCEPULL/vector_8B01A153FC4AE44E.ifc.dt.d.json
+   create mode 100644 x64/FORCEPULL/vector_8B01A153FC4AE44E.ifc.dt.module.json
+   create mode 100644 x64/FORCEPULL/vector_8B01A153FC4AE44E.ifc.dt.module.json.command
+  Changes committed successfully.
+  Scanning sources for module dependencies...
+  GLAD_1_3.ixx
+  GLAD_1_5.ixx
+  BlenderObject-ShapeKeyFrame.ixx
+  GLAD_1_4.ixx
+  BlenderObject-Material.ixx
+  BlenderObject-TransformKeyFrame.ixx
+  BlenderObject-ShapeKey.ixx
+  BlenderObject.ixx
+  GLAD_1_1.ixx
+  ALL_MODULES.ixx
+  GLAD_1_2.ixx
+  BlenderObject-BlenderObjectData.ixx
+  GLAD_2_1.ixx
+  GLAD_2_0.ixx
+  GLAD_3_1.ixx
+  GLAD_3_0.ixx
+  GLAD_3_2.ixx
+  GLAD_3_3.ixx
+  GLAD_4_0.ixx
+  GLAD_4_4.ixx
+  GLAD_4_1.ixx
+  GLAD_4_2.ixx
+  GLAD_4_5.ixx
+  GLAD_4_3.ixx
+  GLAD_4_6.ixx
+  GLAD_BASE-Macros.ixx
+  GLAD.ixx
+  GLAD_BASE-Types.ixx
+  GLAD_BASE.ixx
+  GLFW-Internal_Macros.ixx
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+  GLFW-Macros.ixx
+  GLFW-Internal_Types.ixx
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+  GLFW-Types.ixx
+  GLFW.ixx
+  GLM.ixx
+  GLAD_1_0.ixx
+  GLFW-Init.ixx
+  KHR-Enums.ixx
+  KHR.ixx
+  KHR-Macros.ixx
+  KHR-Types.ixx
+  BlenderObject-Triangle.ixx
+  iostream
+  limits
+  atomic
+  vector
+  fstream
+  thread
+  vec3.hpp
+  algorithm
+  string
+  cmath
+  cstddef
+  mutex
+  glfw3.h
+  stddef.h
+  stdint.h
+  glm.hpp
+  type_ptr.hpp
+  cstdint
+  matrix_transform.hpp
+  Compiling...
+  vector
+  limits
+  iostream
+  atomic
+  cmath
+  cstddef
+  thread
+  fstream
+  vec3.hpp
+  string
+  algorithm
+  mutex
+  glfw3.h
+  stddef.h
+  stdint.h
+  glm.hpp
+  matrix_transform.hpp
+  type_ptr.hpp
+  cstdint
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+  GLFW-Init.ixx
+  GLFW-Internal_Types.ixx
+  GLFW-Macros.ixx
+  GLFW-Internal_Macros.ixx
+  GLFW-Types.ixx
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2230: could not find module 'GLFW'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2230: could not find module 'GLFW'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,50): error C2143: syntax error: missing ',' before '*'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,21): error C2146: syntax error: missing ';' before identifier 'glfwSetErrorCallback'
+  Shader-Fragment.ixx
+  std.ixx
+  Shader-Vertex.ixx
+  BlenderObject-Material.ixx
+  std.compat.ixx
+  BlenderObject-ShapeKeyFrame.ixx
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(6,18): error C2230: could not find module 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(14,19): error C2039: 'isalnum': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(14,8): error C2873: 'isalnum': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(15,19): error C2039: 'isalpha': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(15,8): error C2873: 'isalpha': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(16,19): error C2039: 'isblank': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(16,8): error C2873: 'isblank': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(17,19): error C2039: 'iscntrl': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(17,8): error C2873: 'iscntrl': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(18,19): error C2039: 'isdigit': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(18,8): error C2873: 'isdigit': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(19,19): error C2039: 'isgraph': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(19,8): error C2873: 'isgraph': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(20,19): error C2039: 'islower': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(20,8): error C2873: 'islower': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(21,19): error C2039: 'isprint': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(21,8): error C2873: 'isprint': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(22,19): error C2039: 'ispunct': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(22,8): error C2873: 'ispunct': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(23,19): error C2039: 'isspace': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(23,8): error C2873: 'isspace': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(24,19): error C2039: 'isupper': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(24,8): error C2873: 'isupper': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(25,19): error C2039: 'isxdigit': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(25,8): error C2873: 'isxdigit': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(26,19): error C2039: 'tolower': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(26,8): error C2873: 'tolower': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(27,19): error C2039: 'toupper': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(27,8): error C2873: 'toupper': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(33,19): error C2039: 'fenv_t': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(33,8): error C2873: 'fenv_t': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(34,19): error C2039: 'fexcept_t': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(34,8): error C2873: 'fexcept_t': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(35,19): error C2039: 'feclearexcept': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(35,8): error C2873: 'feclearexcept': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(36,19): error C2039: 'fegetexceptflag': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(36,8): error C2873: 'fegetexceptflag': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(37,19): error C2039: 'feraiseexcept': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(37,8): error C2873: 'feraiseexcept': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(38,19): error C2039: 'fesetexceptflag': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(38,8): error C2873: 'fesetexceptflag': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(39,19): error C2039: 'fetestexcept': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(39,8): error C2873: 'fetestexcept': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(40,19): error C2039: 'fegetround': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(40,8): error C2873: 'fegetround': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(41,19): error C2039: 'fesetround': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(41,8): error C2873: 'fesetround': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(42,19): error C2039: 'fegetenv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(42,8): error C2873: 'fegetenv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(43,19): error C2039: 'feholdexcept': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(43,8): error C2873: 'feholdexcept': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(44,19): error C2039: 'fesetenv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(44,8): error C2873: 'fesetenv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(45,19): error C2039: 'feupdateenv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(45,8): error C2873: 'feupdateenv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(51,19): error C2039: 'imaxdiv_t': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(51,8): error C2873: 'imaxdiv_t': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(52,19): error C2039: 'imaxabs': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(52,8): error C2873: 'imaxabs': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(53,19): error C2039: 'imaxdiv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(53,8): error C2873: 'imaxdiv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(54,19): error C2039: 'strtoimax': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(54,8): error C2873: 'strtoimax': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(55,19): error C2039: 'strtoumax': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(55,8): error C2873: 'strtoumax': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(56,19): error C2039: 'wcstoimax': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(56,8): error C2873: 'wcstoimax': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(57,19): error C2039: 'wcstoumax': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(57,8): error C2873: 'wcstoumax': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(63,19): error C2039: 'lconv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(63,8): error C2873: 'lconv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(64,19): error C2039: 'setlocale': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(64,8): error C2873: 'setlocale': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(65,19): error C2039: 'localeconv': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(65,8): error C2873: 'localeconv': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(68,19): error C2039: 'float_t': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(68,8): error C2873: 'float_t': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(69,19): error C2039: 'double_t': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(69,8): error C2873: 'double_t': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(70,19): error C2039: 'acos': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(70,8): error C2873: 'acos': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(71,19): error C2039: 'acosf': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(71,8): error C2873: 'acosf': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(72,19): error C2039: 'acosl': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(72,8): error C2873: 'acosl': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(73,19): error C2039: 'asin': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(73,8): error C2873: 'asin': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(74,19): error C2039: 'asinf': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(74,8): error C2873: 'asinf': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(75,19): error C2039: 'asinl': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(75,8): error C2873: 'asinl': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(76,19): error C2039: 'atan': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(76,8): error C2873: 'atan': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(77,19): error C2039: 'atanf': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(77,8): error C2873: 'atanf': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(78,19): error C2039: 'atanl': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(78,8): error C2873: 'atanl': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(79,19): error C2039: 'atan2': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(79,8): error C2873: 'atan2': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(80,19): error C2039: 'atan2f': is not a member of 'std'
+      C:\DEV\Refinement\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(80,8): error C2873: 'atan2f': symbol cannot be used in a using-declaration
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx(80,8): error C1003: error count exceeds 100; stopping compilation

@@ -238,10 +238,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>$(ProjectDir)Bash_Scripts\git_auto_commit.bat</Command>
+      <Command>$(ProjectDir)Bash_Scripts\git_pull.bat</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>$(ProjectDir)Bash_Scripts\git_squash_then_push.bat</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FORCEPUSH|x64'">

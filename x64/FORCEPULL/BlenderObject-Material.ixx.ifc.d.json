@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject-material.ixx",
+        "ProvidedModule": "BlenderObject_Material",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\string",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\string_GT02E4T140807UCG.ifc"
+            },
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\vec3.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vec3.hpp_3YWJMZVKE1GNXHSI.ifc"
+            }
+        ]
+    }
+}

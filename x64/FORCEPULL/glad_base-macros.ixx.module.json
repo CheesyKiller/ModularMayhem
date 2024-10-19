@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPULL\\GLAD_BASE-Macros.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vc143.pdb",
+                "x64\\FORCEPULL\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\GLAD_BASE-Macros.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLAD_BASE:Macros",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glad_base-macros.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "GLAD_BASE:Types"
+                }
+            ]
+        }
+    ]
+}

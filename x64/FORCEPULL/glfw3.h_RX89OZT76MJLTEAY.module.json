@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPULL\\glfw3.h_RX89OZT76MJLTEAY.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vc143.pdb",
+                "x64\\FORCEPULL\\glfw3.h_RX89OZT76MJLTEAY.module.json",
+                "x64\\FORCEPULL\\glfw3.h_RX89OZT76MJLTEAY.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\PersonalAddonsForCPP\\include\\GLFW\\glfw3.h",
+                    "source-path": "c:\\personaladdonsforcpp\\include\\glfw\\glfw3.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

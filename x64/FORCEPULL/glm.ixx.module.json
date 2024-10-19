@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPULL\\GLM.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\vc143.pdb",
+                "x64\\FORCEPULL\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPULL\\GLM.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLM",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glm.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "glm/glm.hpp",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\glm\\glm.hpp",
+                    "lookup-method": "include-quote",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "glm/gtc/matrix_transform.hpp",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\glm\\gtc\\matrix_transform.hpp",
+                    "lookup-method": "include-quote",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "glm/gtc/type_ptr.hpp",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\glm\\gtc\\type_ptr.hpp",
+                    "lookup-method": "include-quote",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}
