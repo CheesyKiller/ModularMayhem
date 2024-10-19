@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\GLFW-Types.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLFW-Types.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLFW:Types",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glfw-types.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

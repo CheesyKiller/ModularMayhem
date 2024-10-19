@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\matrix_transform.hpp_RN5UY756UFKVAERW.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\matrix_transform.hpp_RN5UY756UFKVAERW.module.json",
+                "x64\\Debug\\matrix_transform.hpp_RN5UY756UFKVAERW.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\PersonalAddonsForCPP\\include\\glm\\gtc\\matrix_transform.hpp",
+                    "source-path": "c:\\personaladdonsforcpp\\include\\glm\\gtc\\matrix_transform.hpp",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

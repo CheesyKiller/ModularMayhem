@@ -127,11 +127,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>git config --global credential.helper manager
-git add .
-git commit -m "Automated build commit %date% %time%"
-git push --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master</Command>
+      <Command>$(ProjectDir)Bash_Scripts\git_auto_commit.bat</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>$(ProjectDir)Bash_Scripts\git_squash_then_push.bat</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -155,11 +155,11 @@ git push --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>git config --global credential.helper manager
-git add .
-git commit -m "Automated build commit %date% %time%"
-git push --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master</Command>
+      <Command>$(ProjectDir)Bash_Scripts\git_auto_commit.bat</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>$(ProjectDir)Bash_Scripts\git_squash_then_push.bat</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp" />
