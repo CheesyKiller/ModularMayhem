@@ -1,0 +1,305 @@
+﻿  Build succeeded, proceeding with Git operations...
+  Git credential helper configured.
+  From https://github.com/CheesyKiller/ModularMayhem
+   * branch            master     -> FETCH_HEAD
+  Fetched from origin successfully.
+  fatal: upstream branch 'refs/heads/master' not stored as a remote-tracking branch
+  Reset to upstream successfully.
+  On branch master
+  Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+  	modified:   Refinement.vcxproj
+  	modified:   x64/FORCEPUSH/Refinement.log
+  
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+  	x64/FORCEPUSH/BlenderObject-Material.ixx.ifc
+  	x64/FORCEPUSH/BlenderObject-Material.ixx.ifc.d.json
+  	x64/FORCEPUSH/BlenderObject-Material.ixx.obj
+  	x64/FORCEPUSH/BlenderObject-ShapeKeyFrame.ixx.ifc
+  	x64/FORCEPUSH/BlenderObject-ShapeKeyFrame.ixx.ifc.d.json
+  	x64/FORCEPUSH/BlenderObject-ShapeKeyFrame.ixx.obj
+  	x64/FORCEPUSH/BlenderObject-TransformKeyFrame.ixx.ifc
+  	x64/FORCEPUSH/BlenderObject-TransformKeyFrame.ixx.ifc.d.json
+  	x64/FORCEPUSH/BlenderObject-TransformKeyFrame.ixx.obj
+  	x64/FORCEPUSH/BlenderObject-Triangle.ixx.ifc
+  	x64/FORCEPUSH/BlenderObject-Triangle.ixx.ifc.d.json
+  	x64/FORCEPUSH/BlenderObject-Triangle.ixx.obj
+  	x64/FORCEPUSH/GLFW-Init.ixx.ifc.d.json
+  	x64/FORCEPUSH/GLFW-Macros.ixx.ifc
+  	x64/FORCEPUSH/GLFW-Macros.ixx.ifc.d.json
+  	x64/FORCEPUSH/GLFW-Macros.ixx.obj
+  	x64/FORCEPUSH/GLFW-Types.ixx.ifc
+  	x64/FORCEPUSH/GLFW-Types.ixx.ifc.d.json
+  	x64/FORCEPUSH/GLFW-Types.ixx.obj
+  	x64/FORCEPUSH/GLM.ixx.ifc
+  	x64/FORCEPUSH/GLM.ixx.ifc.d.json
+  	x64/FORCEPUSH/GLM.ixx.obj
+  	x64/FORCEPUSH/KHR-Macros.ixx.ifc
+  	x64/FORCEPUSH/KHR-Macros.ixx.ifc.d.json
+  	x64/FORCEPUSH/KHR-Macros.ixx.obj
+  	x64/FORCEPUSH/KHR-Types.ixx.ifc
+  	x64/FORCEPUSH/KHR-Types.ixx.ifc.d.json
+  	x64/FORCEPUSH/KHR-Types.ixx.obj
+  	x64/FORCEPUSH/Refinement.tlog/CL.command.1.tlog
+  	x64/FORCEPUSH/Refinement.tlog/Microsoft.Build.CPPTasks.CL.read.1.tlog
+  	x64/FORCEPUSH/Refinement.tlog/Microsoft.Build.CPPTasks.CL.write.1.tlog
+  	x64/FORCEPUSH/Refinement_MD.tlog/
+  	x64/FORCEPUSH/Shader-Fragment.ixx.ifc
+  	x64/FORCEPUSH/Shader-Fragment.ixx.ifc.d.json
+  	x64/FORCEPUSH/Shader-Fragment.ixx.obj
+  	x64/FORCEPUSH/Shader-Vertex.ixx.ifc
+  	x64/FORCEPUSH/Shader-Vertex.ixx.ifc.d.json
+  	x64/FORCEPUSH/Shader-Vertex.ixx.obj
+  	x64/FORCEPUSH/algorithm_J4SEPIAANYKU1WYO.ifc
+  	x64/FORCEPUSH/algorithm_J4SEPIAANYKU1WYO.ifc.d.json
+  	x64/FORCEPUSH/algorithm_J4SEPIAANYKU1WYO.module.json
+  	x64/FORCEPUSH/algorithm_J4SEPIAANYKU1WYO.obj
+  	x64/FORCEPUSH/all_modules.ixx.module.json
+  	x64/FORCEPUSH/atomic_MKJF137ZTWOZPFDN.ifc
+  	x64/FORCEPUSH/atomic_MKJF137ZTWOZPFDN.ifc.d.json
+  	x64/FORCEPUSH/atomic_MKJF137ZTWOZPFDN.module.json
+  	x64/FORCEPUSH/atomic_MKJF137ZTWOZPFDN.obj
+  	x64/FORCEPUSH/blenderobject-blenderobjectdata.ixx.module.json
+  	x64/FORCEPUSH/blenderobject-material.ixx.module.json
+  	x64/FORCEPUSH/blenderobject-shapekey.ixx.module.json
+  	x64/FORCEPUSH/blenderobject-shapekeyframe.ixx.module.json
+  	x64/FORCEPUSH/blenderobject-transformkeyframe.ixx.module.json
+  	x64/FORCEPUSH/blenderobject-triangle.ixx.module.json
+  	x64/FORCEPUSH/blenderobject.ixx.module.json
+  	x64/FORCEPUSH/cmath_GXU9QLDIW1M5IFD5.ifc
+  	x64/FORCEPUSH/cmath_GXU9QLDIW1M5IFD5.ifc.d.json
+  	x64/FORCEPUSH/cmath_GXU9QLDIW1M5IFD5.module.json
+  	x64/FORCEPUSH/cmath_GXU9QLDIW1M5IFD5.obj
+  	x64/FORCEPUSH/cstddef_7OHNU1F9735L2VY2.ifc
+  	x64/FORCEPUSH/cstddef_7OHNU1F9735L2VY2.ifc.d.json
+  	x64/FORCEPUSH/cstddef_7OHNU1F9735L2VY2.module.json
+  	x64/FORCEPUSH/cstddef_7OHNU1F9735L2VY2.obj
+  	x64/FORCEPUSH/cstdint_A3SXT74KIJL6TH1Y.ifc
+  	x64/FORCEPUSH/cstdint_A3SXT74KIJL6TH1Y.ifc.d.json
+  	x64/FORCEPUSH/cstdint_A3SXT74KIJL6TH1Y.module.json
+  	x64/FORCEPUSH/cstdint_A3SXT74KIJL6TH1Y.obj
+  	x64/FORCEPUSH/fstream_CC1NQJKCCD0FO3R8.ifc
+  	x64/FORCEPUSH/fstream_CC1NQJKCCD0FO3R8.ifc.d.json
+  	x64/FORCEPUSH/fstream_CC1NQJKCCD0FO3R8.module.json
+  	x64/FORCEPUSH/fstream_CC1NQJKCCD0FO3R8.obj
+  	x64/FORCEPUSH/glad.ixx.module.json
+  	x64/FORCEPUSH/glad_1_0.ixx.module.json
+  	x64/FORCEPUSH/glad_1_1.ixx.module.json
+  	x64/FORCEPUSH/glad_1_2.ixx.module.json
+  	x64/FORCEPUSH/glad_1_3.ixx.module.json
+  	x64/FORCEPUSH/glad_1_4.ixx.module.json
+  	x64/FORCEPUSH/glad_1_5.ixx.module.json
+  	x64/FORCEPUSH/glad_2_0.ixx.module.json
+  	x64/FORCEPUSH/glad_2_1.ixx.module.json
+  	x64/FORCEPUSH/glad_3_0.ixx.module.json
+  	x64/FORCEPUSH/glad_3_1.ixx.module.json
+  	x64/FORCEPUSH/glad_3_2.ixx.module.json
+  	x64/FORCEPUSH/glad_3_3.ixx.module.json
+  	x64/FORCEPUSH/glad_4_0.ixx.module.json
+  	x64/FORCEPUSH/glad_4_1.ixx.module.json
+  	x64/FORCEPUSH/glad_4_2.ixx.module.json
+  	x64/FORCEPUSH/glad_4_3.ixx.module.json
+  	x64/FORCEPUSH/glad_4_4.ixx.module.json
+  	x64/FORCEPUSH/glad_4_5.ixx.module.json
+  	x64/FORCEPUSH/glad_4_6.ixx.module.json
+  	x64/FORCEPUSH/glad_base-macros.ixx.module.json
+  	x64/FORCEPUSH/glad_base-types.ixx.module.json
+  	x64/FORCEPUSH/glad_base.ixx.module.json
+  	x64/FORCEPUSH/glfw-init.ixx.module.json
+  	x64/FORCEPUSH/glfw-macros.ixx.module.json
+  	x64/FORCEPUSH/glfw-types.ixx.module.json
+  	x64/FORCEPUSH/glfw.ixx.module.json
+  	x64/FORCEPUSH/glfw3.h_RX89OZT76MJLTEAY.ifc
+  	x64/FORCEPUSH/glfw3.h_RX89OZT76MJLTEAY.ifc.d.json
+  	x64/FORCEPUSH/glfw3.h_RX89OZT76MJLTEAY.module.json
+  	x64/FORCEPUSH/glfw3.h_RX89OZT76MJLTEAY.obj
+  	x64/FORCEPUSH/glm.hpp_WICTAOQK3NROXI98.ifc
+  	x64/FORCEPUSH/glm.hpp_WICTAOQK3NROXI98.ifc.d.json
+  	x64/FORCEPUSH/glm.hpp_WICTAOQK3NROXI98.module.json
+  	x64/FORCEPUSH/glm.hpp_WICTAOQK3NROXI98.obj
+  	x64/FORCEPUSH/glm.ixx.module.json
+  	x64/FORCEPUSH/iostream_KTPLHOCEDX7YBZWE.ifc
+  	x64/FORCEPUSH/iostream_KTPLHOCEDX7YBZWE.ifc.d.json
+  	x64/FORCEPUSH/iostream_KTPLHOCEDX7YBZWE.module.json
+  	x64/FORCEPUSH/iostream_KTPLHOCEDX7YBZWE.obj
+  	x64/FORCEPUSH/khr-enums.ixx.module.json
+  	x64/FORCEPUSH/khr-macros.ixx.module.json
+  	x64/FORCEPUSH/khr-types.ixx.module.json
+  	x64/FORCEPUSH/khr.ixx.module.json
+  	x64/FORCEPUSH/limits_ZVX8EE72Z68LGBUT.ifc
+  	x64/FORCEPUSH/limits_ZVX8EE72Z68LGBUT.ifc.d.json
+  	x64/FORCEPUSH/limits_ZVX8EE72Z68LGBUT.module.json
+  	x64/FORCEPUSH/limits_ZVX8EE72Z68LGBUT.obj
+  	x64/FORCEPUSH/matrix_transform.hpp_RN5UY756UFKVAERW.ifc
+  	x64/FORCEPUSH/matrix_transform.hpp_RN5UY756UFKVAERW.ifc.d.json
+  	x64/FORCEPUSH/matrix_transform.hpp_RN5UY756UFKVAERW.module.json
+  	x64/FORCEPUSH/matrix_transform.hpp_RN5UY756UFKVAERW.obj
+  	x64/FORCEPUSH/microsoft/STL/std.compat.ixx.module.json
+  	x64/FORCEPUSH/microsoft/STL/std.ixx.ifc
+  	x64/FORCEPUSH/microsoft/STL/std.ixx.ifc.d.json
+  	x64/FORCEPUSH/microsoft/STL/std.ixx.module.json
+  	x64/FORCEPUSH/microsoft/STL/std.ixx.obj
+  	x64/FORCEPUSH/mutex_4YYJ92O7ZSC1O0G8.ifc
+  	x64/FORCEPUSH/mutex_4YYJ92O7ZSC1O0G8.ifc.d.json
+  	x64/FORCEPUSH/mutex_4YYJ92O7ZSC1O0G8.module.json
+  	x64/FORCEPUSH/mutex_4YYJ92O7ZSC1O0G8.obj
+  	x64/FORCEPUSH/shader-fragment.ixx.module.json
+  	x64/FORCEPUSH/shader-vertex.ixx.module.json
+  	x64/FORCEPUSH/stddef.h_BY56CWISNLPIA8S2.ifc
+  	x64/FORCEPUSH/stddef.h_BY56CWISNLPIA8S2.ifc.d.json
+  	x64/FORCEPUSH/stddef.h_BY56CWISNLPIA8S2.module.json
+  	x64/FORCEPUSH/stddef.h_BY56CWISNLPIA8S2.obj
+  	x64/FORCEPUSH/stdint.h_XHUJS0AFTYAA3WXC.ifc
+  	x64/FORCEPUSH/stdint.h_XHUJS0AFTYAA3WXC.ifc.d.json
+  	x64/FORCEPUSH/stdint.h_XHUJS0AFTYAA3WXC.module.json
+  	x64/FORCEPUSH/stdint.h_XHUJS0AFTYAA3WXC.obj
+  	x64/FORCEPUSH/string_GT02E4T140807UCG.ifc
+  	x64/FORCEPUSH/string_GT02E4T140807UCG.ifc.d.json
+  	x64/FORCEPUSH/string_GT02E4T140807UCG.module.json
+  	x64/FORCEPUSH/string_GT02E4T140807UCG.obj
+  	x64/FORCEPUSH/thread_G04NP4C7VPS2ZZAC.ifc
+  	x64/FORCEPUSH/thread_G04NP4C7VPS2ZZAC.ifc.d.json
+  	x64/FORCEPUSH/thread_G04NP4C7VPS2ZZAC.module.json
+  	x64/FORCEPUSH/thread_G04NP4C7VPS2ZZAC.obj
+  	x64/FORCEPUSH/type_ptr.hpp_ZALN90Q097340440.ifc
+  	x64/FORCEPUSH/type_ptr.hpp_ZALN90Q097340440.ifc.d.json
+  	x64/FORCEPUSH/type_ptr.hpp_ZALN90Q097340440.module.json
+  	x64/FORCEPUSH/type_ptr.hpp_ZALN90Q097340440.obj
+  	x64/FORCEPUSH/vc143.idb
+  	x64/FORCEPUSH/vc143.pdb
+  	x64/FORCEPUSH/vec3.hpp_3YWJMZVKE1GNXHSI.ifc
+  	x64/FORCEPUSH/vec3.hpp_3YWJMZVKE1GNXHSI.ifc.d.json
+  	x64/FORCEPUSH/vec3.hpp_3YWJMZVKE1GNXHSI.module.json
+  	x64/FORCEPUSH/vec3.hpp_3YWJMZVKE1GNXHSI.obj
+  	x64/FORCEPUSH/vector_GDGH8LXPB6233BGE.ifc
+  	x64/FORCEPUSH/vector_GDGH8LXPB6233BGE.ifc.d.json
+  	x64/FORCEPUSH/vector_GDGH8LXPB6233BGE.module.json
+  	x64/FORCEPUSH/vector_GDGH8LXPB6233BGE.obj
+  	x64/PUSH/
+  
+  no changes added to commit (use "git add" and/or "git commit -a")
+  Commit created successfully.
+  Everything up-to-date
+  Pushed to the remote repository successfully.
+  All Git operations completed successfully.
+  Scanning sources for module dependencies...
+  BlenderObject-Material.ixx
+  ALL_MODULES.ixx
+  BlenderObject-TransformKeyFrame.ixx
+  BlenderObject-ShapeKeyFrame.ixx
+  BlenderObject.ixx
+  BlenderObject-BlenderObjectData.ixx
+  GLAD_1_2.ixx
+  BlenderObject-ShapeKey.ixx
+  GLAD_1_4.ixx
+  GLAD_1_3.ixx
+  GLAD_1_5.ixx
+  GLAD_1_1.ixx
+  GLAD_2_0.ixx
+  GLAD_4_3.ixx
+  GLAD_3_3.ixx
+  GLAD_4_0.ixx
+  GLAD_4_1.ixx
+  GLAD_4_5.ixx
+  GLAD_3_0.ixx
+  GLAD_4_2.ixx
+  GLAD_3_2.ixx
+  GLAD_2_1.ixx
+  GLAD_4_4.ixx
+  GLAD_3_1.ixx
+  GLAD_4_6.ixx
+  GLAD_BASE-Types.ixx
+  GLAD.ixx
+  GLAD_BASE-Macros.ixx
+  GLFW-Types.ixx
+  GLAD_BASE.ixx
+  GLFW.ixx
+  GLFW-Internal_Types.ixx
+  GLAD_1_0.ixx
+  GLM.ixx
+  GLFW-Macros.ixx
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+  GLFW-Internal_Macros.ixx
+c1xx : fatal  error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+  GLFW-Init.ixx
+  KHR.ixx
+  KHR-Types.ixx
+  KHR-Macros.ixx
+  KHR-Enums.ixx
+  vector
+  cmath
+  string
+  fstream
+  iostream
+  limits
+  mutex
+  thread
+  algorithm
+  cstddef
+  atomic
+  vec3.hpp
+  glfw3.h
+  stddef.h
+  stdint.h
+  cstdint
+  glm.hpp
+  type_ptr.hpp
+  matrix_transform.hpp
+  Compiling...
+  vector
+  limits
+  iostream
+  mutex
+  atomic
+  algorithm
+  string
+  cmath
+  thread
+  cstddef
+  vec3.hpp
+  fstream
+  glfw3.h
+  stddef.h
+  stdint.h
+  glm.hpp
+  matrix_transform.hpp
+  GLFW-Macros.ixx
+  type_ptr.hpp
+  GLFW-Internal_Macros.ixx
+  GLFW-Internal_Types.ixx
+/GLFW-Internal_Macros.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Macros.ixx': No such file or directory
+/GLFW-Internal_Types.ixx(1,1): error C1083: Cannot open source file: 'GLFW-Internal_Types.ixx': No such file or directory
+  (compiling source file '/GLFW-Internal_Macros.ixx')
+  
+  (compiling source file '/GLFW-Internal_Types.ixx')
+  
+  GLFW-Types.ixx
+  cstdint
+  GLFW-Init.ixx
+  BlenderObject-Triangle.ixx
+  Shader-Fragment.ixx
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,12): error C2230: could not find module 'GLFW'
+  Shader-Vertex.ixx
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2143: syntax error: missing ';' before ':'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,12): error C2230: could not find module 'GLFW'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(13,50): error C2143: syntax error: missing ',' before '*'
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\DEV\Refinement\Refinement\GLFW-Init.ixx(21,21): error C2146: syntax error: missing ';' before identifier 'glfwSetErrorCallback'
+C:\DEV\Refinement\Refinement\BlenderObject-Triangle.ixx(3,28): error C7612: could not find header unit for 'glm/glm.hpp'
+C:\DEV\Refinement\Refinement\BlenderObject-Triangle.ixx(6,2): error C2653: 'glm': is not a class or namespace name
+C:\DEV\Refinement\Refinement\BlenderObject-Triangle.ixx(6,12): error C3646: 'vertices': unknown override specifier
+C:\DEV\Refinement\Refinement\BlenderObject-Triangle.ixx(6,20): error C2143: syntax error: missing ',' before '['
+C:\DEV\Refinement\Refinement\BlenderObject-Triangle.ixx(6,23): error C2238: unexpected token(s) preceding ';'
+  std.ixx

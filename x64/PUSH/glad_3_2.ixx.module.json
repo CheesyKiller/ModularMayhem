@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\PUSH\\GLAD_3_2.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\vc143.pdb",
+                "x64\\PUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\GLAD_3_2.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLAD_3_2",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glad_3_2.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "GLAD_3_1"
+                }
+            ]
+        }
+    ]
+}

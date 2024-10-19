@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPUSH\\BlenderObject-Triangle.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\vc143.pdb",
+                "x64\\FORCEPUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\BlenderObject-Triangle.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "BlenderObject_Triangle",
+                    "source-path": "c:\\dev\\refinement\\refinement\\blenderobject-triangle.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "glm/glm.hpp",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\glm\\glm.hpp",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

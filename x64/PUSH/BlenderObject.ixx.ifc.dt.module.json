@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject.ixx",
+        "ProvidedModule": "BlenderObject",
+        "ImportedModules": [
+            "BlenderObject_Triangle",
+            "BlenderObject_BlenderObjectData"
+        ],
+        "ImportedHeaderUnits": [
+            "C:\\PersonalAddonsForCPP\\include\\GLFW\\glfw3.h"
+        ]
+    }
+}

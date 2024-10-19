@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\PUSH\\GLFW-Macros.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\vc143.pdb",
+                "x64\\PUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\GLFW-Macros.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLFW:Macros",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glfw-macros.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

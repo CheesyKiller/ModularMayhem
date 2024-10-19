@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\PUSH\\vec3.hpp_3YWJMZVKE1GNXHSI.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\vc143.pdb",
+                "x64\\PUSH\\vec3.hpp_3YWJMZVKE1GNXHSI.module.json",
+                "x64\\PUSH\\vec3.hpp_3YWJMZVKE1GNXHSI.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\PersonalAddonsForCPP\\include\\glm\\vec3.hpp",
+                    "source-path": "c:\\personaladdonsforcpp\\include\\glm\\vec3.hpp",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

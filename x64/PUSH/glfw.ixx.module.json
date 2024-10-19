@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\PUSH\\GLFW.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\vc143.pdb",
+                "x64\\PUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\GLFW.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLFW",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glfw.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "GLAD"
+                },
+                {
+                    "logical-name": "stddef.h",
+                    "source-path": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stddef.h",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "stdint.h",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\stdint.h",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

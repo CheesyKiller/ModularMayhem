@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\PUSH\\BlenderObject-ShapeKey.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\vc143.pdb",
+                "x64\\PUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\PUSH\\BlenderObject-ShapeKey.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "BlenderObject_ShapeKey",
+                    "source-path": "c:\\dev\\refinement\\refinement\\blenderobject-shapekey.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "BlenderObject_ShapeKeyFrame"
+                },
+                {
+                    "logical-name": "string",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\string",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "vector",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

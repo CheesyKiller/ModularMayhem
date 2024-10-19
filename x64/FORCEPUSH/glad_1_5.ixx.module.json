@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPUSH\\GLAD_1_5.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\vc143.pdb",
+                "x64\\FORCEPUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\GLAD_1_5.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GLAD_1_5",
+                    "source-path": "c:\\dev\\refinement\\refinement\\glad_1_5.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "GLAD_1_4"
+                }
+            ]
+        }
+    ]
+}

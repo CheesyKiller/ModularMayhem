@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPUSH\\Shader-Vertex.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\vc143.pdb",
+                "x64\\FORCEPUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\Shader-Vertex.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Shader_Vertex",
+                    "source-path": "c:\\dev\\refinement\\refinement\\shader-vertex.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
