@@ -9,7 +9,7 @@ IF %ERRORLEVEL% NEQ 0 (
 echo Git credential helper configured.
 
 REM Pull changes from the remote repository
-git pull
+git pull --set-upstream https://github.com/CheesyKiller/ModularMayhem.git master
 IF %ERRORLEVEL% NEQ 0 (
     echo Failed to pull changes from the remote repository. Exit code: %ERRORLEVEL%
     exit /b %ERRORLEVEL%

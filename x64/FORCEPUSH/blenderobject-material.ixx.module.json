@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\FORCEPUSH\\BlenderObject-Material.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\vc143.pdb",
+                "x64\\FORCEPUSH\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\FORCEPUSH\\BlenderObject-Material.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "BlenderObject_Material",
+                    "source-path": "c:\\dev\\refinement\\refinement\\blenderobject-material.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "string",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\string",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "glm/vec3.hpp",
+                    "source-path": "C:\\PersonalAddonsForCPP\\include\\glm\\vec3.hpp",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}
