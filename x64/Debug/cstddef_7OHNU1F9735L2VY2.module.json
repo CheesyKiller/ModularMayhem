@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\cstddef_7OHNU1F9735L2VY2.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\cstddef_7OHNU1F9735L2VY2.module.json",
+                "x64\\Debug\\cstddef_7OHNU1F9735L2VY2.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstddef",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\cstddef",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

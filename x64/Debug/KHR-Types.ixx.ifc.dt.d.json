@@ -5,11 +5,6 @@
         "ProvidedModule": "KHR:Types",
         "Includes": [],
         "ImportedModules": [],
-        "ImportedHeaderUnits": [
-            {
-                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\cstdint",
-                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\cstdint_AD872324817FB8E0.ifc.dt"
-            }
-        ]
+        "ImportedHeaderUnits": []
     }
 }

@@ -37,11 +37,11 @@
     <Filter Include="Module Files\GLFW-3.4">
       <UniqueIdentifier>{12c991c2-b76d-40fc-96a0-8b5c96dd4be0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Module Files\GLFW-3.4\init">
-      <UniqueIdentifier>{63e75bf1-a1a5-4119-ab54-71453a24f025}</UniqueIdentifier>
+    <Filter Include="Module Files\GLFW-3.4\Base Files">
+      <UniqueIdentifier>{7e199481-b9e9-42b0-9c2d-8ddf58f77005}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Module Files\GLFW-3.4\internal">
-      <UniqueIdentifier>{8902f7de-fa6f-464a-bac2-92da4f20c251}</UniqueIdentifier>
+    <Filter Include="Module Files\GLFW-3.4\Support Files">
+      <UniqueIdentifier>{c518498f-c1aa-4fc5-a218-6a8f1b3b5258}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -234,31 +234,201 @@
     <ClCompile Include="GLAD_BASE.cpp">
       <Filter>Module Files\GLAD</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Macros.ixx">
-      <Filter>Module Files\GLFW-3.4</Filter>
-    </ClCompile>
     <ClCompile Include="GLFW.ixx">
       <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
     <ClCompile Include="GLFW-Types.ixx">
       <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Init.cpp">
-      <Filter>Module Files\GLFW-3.4\init</Filter>
+    <ClCompile Include="GLFW-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Init.ixx">
-      <Filter>Module Files\GLFW-3.4\init</Filter>
+    <ClCompile Include="cocoa_time.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Internal_Macros.ixx">
-      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    <ClCompile Include="context.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Internal_Types.ixx">
-      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    <ClCompile Include="egl_context.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glx_context.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linux_joystick.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="null_init.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="null_joystick.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="null_monitor.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="null_window.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmesa_context.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posix_module.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posix_poll.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posix_thread.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posix_time.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkan.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wgl_context.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_init.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_joystick.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_module.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_monitor.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_thread.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_time.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_window.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wl_init.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wl_monitor.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wl_window.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x11_init.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x11_monitor.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="x11_window.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xkb_unicode.c">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\PersonalAddonsForCPP\glfw-3.4\src\GLFW-Internal.ixx">
-      <Filter>Module Files\GLFW-3.4\internal</Filter>
+    <None Include="cocoa_joystick.m">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="cocoa_monitor.m">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="cocoa_window.m">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="glfw.rc.in">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="mappings.h.in">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="nsgl_context.m">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+    <None Include="cocoa_init.m">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cocoa_platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa_time.ixx">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linux_joystick.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mappings.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="null_joystick.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="null_platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posix_poll.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posix_thread.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posix_time.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_joystick.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_thread.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_time.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wl_platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="x11_platform.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xkb_unicode.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cocoa_joystick.h">
+      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

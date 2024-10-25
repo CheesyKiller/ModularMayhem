@@ -5,19 +5,6 @@
         "ProvidedModule": "GLM",
         "Includes": [],
         "ImportedModules": [],
-        "ImportedHeaderUnits": [
-            {
-                "Header": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
-                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glm.hpp_8EFF73C9DC3462D.ifc.dt"
-            },
-            {
-                "Header": "c:\\personaladdonsforcpp\\include\\glm\\gtc\\matrix_transform.hpp",
-                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\matrix_transform.hpp_AF7DB7BAED098EEB.ifc.dt"
-            },
-            {
-                "Header": "c:\\personaladdonsforcpp\\include\\glm\\gtc\\type_ptr.hpp",
-                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\type_ptr.hpp_7F437E78FBF9DA90.ifc.dt"
-            }
-        ]
+        "ImportedHeaderUnits": []
     }
 }

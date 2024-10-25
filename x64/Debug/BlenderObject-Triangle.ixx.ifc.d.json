@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject-triangle.ixx",
+        "ProvidedModule": "BlenderObject_Triangle",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glm.hpp_WICTAOQK3NROXI98.ifc"
+            }
+        ]
+    }
+}

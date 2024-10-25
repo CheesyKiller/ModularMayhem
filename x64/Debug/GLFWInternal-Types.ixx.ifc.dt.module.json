@@ -2,7 +2,7 @@
     "Version": "1.1",
     "Data": {
         "Source": "c:\\dev\\refinement\\refinement\\glfwinternal-types.ixx",
-        "ProvidedModule": "EGL",
+        "ProvidedModule": "GLFWInternal:Types",
         "ImportedModules": [],
         "ImportedHeaderUnits": []
     }

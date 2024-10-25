@@ -5,11 +5,6 @@
         "ProvidedModule": "BlenderObject_ShapeKeyFrame",
         "Includes": [],
         "ImportedModules": [],
-        "ImportedHeaderUnits": [
-            {
-                "Header": "c:\\personaladdonsforcpp\\include\\glm\\vec3.hpp",
-                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vec3.hpp_7AD02B3C9A19CBF6.ifc.dt"
-            }
-        ]
+        "ImportedHeaderUnits": []
     }
 }

@@ -1,0 +1,56 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\blenderobject.ixx",
+        "ProvidedModule": "BlenderObject",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "BlenderObject_Triangle",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-Triangle.ixx.ifc"
+            },
+            {
+                "Name": "BlenderObject_BlenderObjectData",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-BlenderObjectData.ixx.ifc"
+            },
+            {
+                "Name": "BlenderObject_Material",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-Material.ixx.ifc"
+            },
+            {
+                "Name": "BlenderObject_ShapeKey",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-ShapeKey.ixx.ifc"
+            },
+            {
+                "Name": "BlenderObject_ShapeKeyFrame",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-ShapeKeyFrame.ixx.ifc"
+            },
+            {
+                "Name": "BlenderObject_TransformKeyFrame",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\BlenderObject-TransformKeyFrame.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glfw\\glfw3.h",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glfw3.h_RX89OZT76MJLTEAY.ifc"
+            },
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\glm.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\glm.hpp_WICTAOQK3NROXI98.ifc"
+            },
+            {
+                "Header": "c:\\personaladdonsforcpp\\include\\glm\\vec3.hpp",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vec3.hpp_3YWJMZVKE1GNXHSI.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\string",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\string_GT02E4T140807UCG.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.41.34120\\include\\vector",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vector_GDGH8LXPB6233BGE.ifc"
+            }
+        ]
+    }
+}

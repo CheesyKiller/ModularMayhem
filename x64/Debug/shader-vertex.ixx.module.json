@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Shader-Vertex.ixx.obj",
+            "outputs": [
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\Shader-Vertex.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Shader_Vertex",
+                    "source-path": "c:\\dev\\refinement\\refinement\\shader-vertex.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

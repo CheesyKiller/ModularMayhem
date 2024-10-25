@@ -1,0 +1,99 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\refinement\\refinement\\glad.ixx",
+        "ProvidedModule": "GLAD",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "GLAD_4_6",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_6.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_5",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_5.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_4",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_4.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_3.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_2.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_1.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_4_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_4_0.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_3_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_3.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_3_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_2.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_3_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_1.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_3_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_3_0.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_2_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_2_1.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_2_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_2_0.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_5",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_5.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_4",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_4.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_3",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_3.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_2",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_2.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_1",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_1.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_1_0",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_1_0.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_BASE",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_BASE:Macros",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE-Macros.ixx.ifc"
+            },
+            {
+                "Name": "GLAD_BASE:Types",
+                "BMI": "C:\\DEV\\Refinement\\Refinement\\x64\\Debug\\GLAD_BASE-Types.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
