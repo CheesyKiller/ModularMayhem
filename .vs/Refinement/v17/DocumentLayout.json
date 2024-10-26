@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\Refinement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWNullPlatform.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWNullPlatform.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Functions.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWNullPlatform-Functions.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWNullPlatform-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Tokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWNullPlatform-Tokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\null_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:null_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\platform.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:platform.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWPlatform.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWPlatform.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternalCore.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternalCore.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWCoreTypes.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWCoreTypes.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\null_joystick.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:null_joystick.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternalCore-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternalCore-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWCoreTokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWCoreTokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternal.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternal.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\null_platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:null_platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFW.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFW.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternalOSMesa.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternalOSMesa-Types.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Tokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:GLFWInternalOSMesa-Tokens.ixx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|D:\\VisualStudio\\Refinement\\platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C2989D25-64C8-47BE-9A34-DB18C3B2CCEA}|Refinement.vcxproj|solutionrelative:platform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GLFWNullPlatform.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform.ixx",
+              "RelativeDocumentMoniker": "GLFWNullPlatform.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform.ixx",
+              "RelativeToolTip": "GLFWNullPlatform.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:51:06.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GLFWNullPlatform-Functions.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Functions.ixx",
+              "RelativeDocumentMoniker": "GLFWNullPlatform-Functions.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Functions.ixx",
+              "RelativeToolTip": "GLFWNullPlatform-Functions.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:56:47.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GLFWNullPlatform-Types.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Types.ixx",
+              "RelativeDocumentMoniker": "GLFWNullPlatform-Types.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Types.ixx",
+              "RelativeToolTip": "GLFWNullPlatform-Types.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:55:59.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GLFWNullPlatform-Tokens.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Tokens.ixx",
+              "RelativeDocumentMoniker": "GLFWNullPlatform-Tokens.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWNullPlatform-Tokens.ixx",
+              "RelativeToolTip": "GLFWNullPlatform-Tokens.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:56:30.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "null_window.c",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\null_window.c",
+              "RelativeDocumentMoniker": "null_window.c",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\null_window.c",
+              "RelativeToolTip": "null_window.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-26T06:05:45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "platform.c",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\platform.c",
+              "RelativeDocumentMoniker": "platform.c",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\platform.c",
+              "RelativeToolTip": "platform.c",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-26T06:03:53.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GLFWPlatform.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWPlatform.ixx",
+              "RelativeDocumentMoniker": "GLFWPlatform.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWPlatform.ixx",
+              "RelativeToolTip": "GLFWPlatform.ixx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:34:09.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GLFWInternalCore.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternalCore.ixx",
+              "RelativeDocumentMoniker": "GLFWInternalCore.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternalCore.ixx",
+              "RelativeToolTip": "GLFWInternalCore.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T06:11:02.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GLFWCoreTypes.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWCoreTypes.ixx",
+              "RelativeDocumentMoniker": "GLFWCoreTypes.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWCoreTypes.ixx",
+              "RelativeToolTip": "GLFWCoreTypes.ixx",
+              "ViewState": "AgIAAMYCAAAAAAAAAAAvwMkCAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T06:09:32.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "null_joystick.c",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\null_joystick.c",
+              "RelativeDocumentMoniker": "null_joystick.c",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\null_joystick.c",
+              "RelativeToolTip": "null_joystick.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-26T06:05:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GLFWInternalCore-Types.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternalCore-Types.ixx",
+              "RelativeDocumentMoniker": "GLFWInternalCore-Types.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternalCore-Types.ixx",
+              "RelativeToolTip": "GLFWInternalCore-Types.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T06:11:03.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GLFWCoreTokens.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWCoreTokens.ixx",
+              "RelativeDocumentMoniker": "GLFWCoreTokens.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWCoreTokens.ixx",
+              "RelativeToolTip": "GLFWCoreTokens.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T05:45:52.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GLFWInternal.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternal.ixx",
+              "RelativeDocumentMoniker": "GLFWInternal.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternal.ixx",
+              "RelativeToolTip": "GLFWInternal.ixx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T06:06:44.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "null_platform.h",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\null_platform.h",
+              "RelativeDocumentMoniker": "null_platform.h",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\null_platform.h",
+              "RelativeToolTip": "null_platform.h",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAvwJkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-26T04:54:23.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GLFW.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFW.ixx",
+              "RelativeDocumentMoniker": "GLFW.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFW.ixx",
+              "RelativeToolTip": "GLFW.ixx",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T05:52:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GLFWInternalOSMesa.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa.ixx",
+              "RelativeDocumentMoniker": "GLFWInternalOSMesa.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa.ixx",
+              "RelativeToolTip": "GLFWInternalOSMesa.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:20:03.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GLFWInternalOSMesa-Types.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Types.ixx",
+              "RelativeDocumentMoniker": "GLFWInternalOSMesa-Types.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Types.ixx",
+              "RelativeToolTip": "GLFWInternalOSMesa-Types.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T05:40:34.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GLFWInternalOSMesa-Tokens.ixx",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Tokens.ixx",
+              "RelativeDocumentMoniker": "GLFWInternalOSMesa-Tokens.ixx",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\GLFWInternalOSMesa-Tokens.ixx",
+              "RelativeToolTip": "GLFWInternalOSMesa-Tokens.ixx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-10-26T04:07:07.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "platform.h",
+              "DocumentMoniker": "D:\\VisualStudio\\Refinement\\platform.h",
+              "RelativeDocumentMoniker": "platform.h",
+              "ToolTip": "D:\\VisualStudio\\Refinement\\platform.h",
+              "RelativeToolTip": "platform.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-26T04:29:38.91Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

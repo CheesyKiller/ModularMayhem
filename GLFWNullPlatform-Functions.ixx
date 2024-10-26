@@ -1,0 +1,70 @@
+export module GLFWNullPlatform:Functions;
+
+import :Types;
+import :Tokens;
+/*
+export void _glfwPollMonitorsNull(void);
+
+export GLFWbool _glfwConnectNull(int platformID, _GLFWplatform* platform);
+export int _glfwInitNull(void);
+export void _glfwTerminateNull(void);
+
+export void _glfwFreeMonitorNull(_GLFWmonitor* monitor);
+export void _glfwGetMonitorPosNull(_GLFWmonitor* monitor, int* xpos, int* ypos);
+export void _glfwGetMonitorContentScaleNull(_GLFWmonitor* monitor, float* xscale, float* yscale);
+export void _glfwGetMonitorWorkareaNull(_GLFWmonitor* monitor, int* xpos, int* ypos, int* width, int* height);
+export GLFWvidmode* _glfwGetVideoModesNull(_GLFWmonitor* monitor, int* found);
+export GLFWbool _glfwGetVideoModeNull(_GLFWmonitor* monitor, GLFWvidmode* mode);
+export GLFWbool _glfwGetGammaRampNull(_GLFWmonitor* monitor, GLFWgammaramp* ramp);
+export void _glfwSetGammaRampNull(_GLFWmonitor* monitor, const GLFWgammaramp* ramp);
+
+export GLFWbool _glfwCreateWindowNull(_GLFWwindow* window, const _GLFWwndconfig* wndconfig, const _GLFWctxconfig* ctxconfig, const _GLFWfbconfig* fbconfig);
+export void _glfwDestroyWindowNull(_GLFWwindow* window);
+export void _glfwSetWindowTitleNull(_GLFWwindow* window, const char* title);
+export void _glfwSetWindowIconNull(_GLFWwindow* window, int count, const GLFWimage* images);
+export void _glfwSetWindowMonitorNull(_GLFWwindow* window, _GLFWmonitor* monitor, int xpos, int ypos, int width, int height, int refreshRate);
+export void _glfwGetWindowPosNull(_GLFWwindow* window, int* xpos, int* ypos);
+export void _glfwSetWindowPosNull(_GLFWwindow* window, int xpos, int ypos);
+export void _glfwGetWindowSizeNull(_GLFWwindow* window, int* width, int* height);
+export void _glfwSetWindowSizeNull(_GLFWwindow* window, int width, int height);
+export void _glfwSetWindowSizeLimitsNull(_GLFWwindow* window, int minwidth, int minheight, int maxwidth, int maxheight);
+export void _glfwSetWindowAspectRatioNull(_GLFWwindow* window, int n, int d);
+export void _glfwGetFramebufferSizeNull(_GLFWwindow* window, int* width, int* height);
+export void _glfwGetWindowFrameSizeNull(_GLFWwindow* window, int* left, int* top, int* right, int* bottom);
+export void _glfwGetWindowContentScaleNull(_GLFWwindow* window, float* xscale, float* yscale);
+export void _glfwIconifyWindowNull(_GLFWwindow* window);
+export void _glfwRestoreWindowNull(_GLFWwindow* window);
+export void _glfwMaximizeWindowNull(_GLFWwindow* window);
+export GLFWbool _glfwWindowMaximizedNull(_GLFWwindow* window);
+export GLFWbool _glfwWindowHoveredNull(_GLFWwindow* window);
+export GLFWbool _glfwFramebufferTransparentNull(_GLFWwindow* window);
+export void _glfwSetWindowResizableNull(_GLFWwindow* window, GLFWbool enabled);
+export void _glfwSetWindowDecoratedNull(_GLFWwindow* window, GLFWbool enabled);
+export void _glfwSetWindowFloatingNull(_GLFWwindow* window, GLFWbool enabled);
+export void _glfwSetWindowMousePassthroughNull(_GLFWwindow* window, GLFWbool enabled);
+export float _glfwGetWindowOpacityNull(_GLFWwindow* window);
+export void _glfwSetWindowOpacityNull(_GLFWwindow* window, float opacity);
+export void _glfwSetRawMouseMotionNull(_GLFWwindow* window, GLFWbool enabled);
+export GLFWbool _glfwRawMouseMotionSupportedNull(void);
+export void _glfwShowWindowNull(_GLFWwindow* window);
+export void _glfwRequestWindowAttentionNull(_GLFWwindow* window);
+export void _glfwHideWindowNull(_GLFWwindow* window);
+export void _glfwFocusWindowNull(_GLFWwindow* window);
+export GLFWbool _glfwWindowFocusedNull(_GLFWwindow* window);
+export GLFWbool _glfwWindowIconifiedNull(_GLFWwindow* window);
+export GLFWbool _glfwWindowVisibleNull(_GLFWwindow* window);
+export void _glfwPollEventsNull(void);
+export void _glfwWaitEventsNull(void);
+export void _glfwWaitEventsTimeoutNull(double timeout);
+export void _glfwPostEmptyEventNull(void);
+export void _glfwGetCursorPosNull(_GLFWwindow* window, double* xpos, double* ypos);
+export void _glfwSetCursorPosNull(_GLFWwindow* window, double x, double y);
+export void _glfwSetCursorModeNull(_GLFWwindow* window, int mode);
+export GLFWbool _glfwCreateCursorNull(_GLFWcursor* cursor, const GLFWimage* image, int xhot, int yhot);
+export GLFWbool _glfwCreateStandardCursorNull(_GLFWcursor* cursor, int shape);
+export void _glfwDestroyCursorNull(_GLFWcursor* cursor);
+export void _glfwSetCursorNull(_GLFWwindow* window, _GLFWcursor* cursor);
+export void _glfwSetClipboardStringNull(const char* string);
+export const char* _glfwGetClipboardStringNull(void);
+export const char* _glfwGetScancodeNameNull(int scancode);
+export int _glfwGetKeyScancodeNull(int key);*/

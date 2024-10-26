@@ -49,8 +49,8 @@ import vulkan_hpp;
 
 export import GLAD;
 
-export import GLFW:Tokens;
-export import GLFW:Types;
+export import GLFWCoreTokens;
+export import GLFWCoreTypes;
 
 /*************************************************************************
 * GLFW API functions

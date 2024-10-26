@@ -1,9 +1,0 @@
-{
-    "Version": "1.1",
-    "Data": {
-        "Source": "c:\\dev\\refinement\\refinement\\shader-vertex.ixx",
-        "ProvidedModule": "Shader_Vertex",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}

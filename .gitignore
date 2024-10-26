@@ -1,1 +1,11 @@
 *.vsidx
+*.opendb
+*.db-shm
+*.backup.json
+*.db
+*.db-wal
+*.suo
+*.ifc.d.json
+*.module.json
+*.ifc
+*.ifc.dt.d.json

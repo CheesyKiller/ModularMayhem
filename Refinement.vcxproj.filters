@@ -43,6 +43,30 @@
     <Filter Include="Module Files\GLFW-3.4\Support Files">
       <UniqueIdentifier>{c518498f-c1aa-4fc5-a218-6a8f1b3b5258}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Internal">
+      <UniqueIdentifier>{23b3fbd0-7108-4cc4-95a6-2af7b8c8b5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\win32">
+      <UniqueIdentifier>{3adf491f-ca31-481a-8e53-fb84096f3e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Internal\Internal">
+      <UniqueIdentifier>{b1f55403-99f0-4c6c-91a6-e0df98526466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Internal\EGL">
+      <UniqueIdentifier>{37a2a73e-23e2-41df-8ef6-f19a34501c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Internal\OSMesa">
+      <UniqueIdentifier>{39d4f7fc-d016-41cf-9f9a-d5fdc351ef03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Internal\Vk">
+      <UniqueIdentifier>{b4b4b1c5-d1cf-4697-88cc-1f737c7c4d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Platform">
+      <UniqueIdentifier>{6ae756cf-a639-4f68-8188-534a7b266482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module Files\GLFW-3.4\Platform\Null Platform">
+      <UniqueIdentifier>{e94b76ef-f13a-4502-a517-2d7b8c278842}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Refinement.cpp">
@@ -237,10 +261,10 @@
     <ClCompile Include="GLFW.ixx">
       <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Types.ixx">
+    <ClCompile Include="GLFWCoreTypes.ixx">
       <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
-    <ClCompile Include="GLFW-Tokens.ixx">
+    <ClCompile Include="GLFWCoreTokens.ixx">
       <Filter>Module Files\GLFW-3.4</Filter>
     </ClCompile>
     <ClCompile Include="cocoa_time.c">
@@ -303,27 +327,6 @@
     <ClCompile Include="wgl_context.c">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClCompile>
-    <ClCompile Include="win32_init.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_joystick.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_module.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_monitor.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_thread.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_time.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
-    <ClCompile Include="win32_window.c">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClCompile>
     <ClCompile Include="window.c">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClCompile>
@@ -347,6 +350,90 @@
     </ClCompile>
     <ClCompile Include="xkb_unicode.c">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_init.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_joystick.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_module.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_monitor.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_thread.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_time.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_window.c">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalCore-Types.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalCore-Functions.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalCore-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalCore.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalEGL-Types.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalEGL-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalEGL.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalEGL-Functions.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalOSMesa.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\OSMesa</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalOSMesa-Functions.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\OSMesa</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalOSMesa-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\OSMesa</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalOSMesa-Types.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\OSMesa</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalVk.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Vk</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalVk-Functions.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Vk</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalVk-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Vk</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWInternalVk-Types.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal\Vk</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWPlatform.ixx">
+      <Filter>Module Files\GLFW-3.4\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWNullPlatform.ixx">
+      <Filter>Module Files\GLFW-3.4\Platform\Null Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWNullPlatform-Types.ixx">
+      <Filter>Module Files\GLFW-3.4\Platform\Null Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWNullPlatform-Tokens.ixx">
+      <Filter>Module Files\GLFW-3.4\Platform\Null Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWNullPlatform-Functions.ixx">
+      <Filter>Module Files\GLFW-3.4\Platform\Null Platform</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -379,9 +466,6 @@
     <ClInclude Include="cocoa_time.ixx">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClInclude>
-    <ClInclude Include="internal.h">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClInclude>
     <ClInclude Include="linux_joystick.h">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClInclude>
@@ -406,18 +490,6 @@
     <ClInclude Include="posix_time.h">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClInclude>
-    <ClInclude Include="win32_joystick.h">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClInclude>
-    <ClInclude Include="win32_platform.h">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClInclude>
-    <ClInclude Include="win32_thread.h">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClInclude>
-    <ClInclude Include="win32_time.h">
-      <Filter>Module Files\GLFW-3.4\Base Files</Filter>
-    </ClInclude>
     <ClInclude Include="wl_platform.h">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
     </ClInclude>
@@ -429,6 +501,21 @@
     </ClInclude>
     <ClInclude Include="cocoa_joystick.h">
       <Filter>Module Files\GLFW-3.4\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_joystick.h">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_platform.h">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_thread.h">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_time.h">
+      <Filter>Module Files\GLFW-3.4\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWInternal.ixx">
+      <Filter>Module Files\GLFW-3.4\Internal</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

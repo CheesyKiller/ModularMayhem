@@ -25,6 +25,7 @@
 //
 //========================================================================
 
+import GLFWInternal;
 #include "internal.h"
 
 #include <string.h>

@@ -1,9 +1,0 @@
-{
-    "Version": "1.1",
-    "Data": {
-        "Source": "c:\\dev\\refinement\\refinement\\glfw-internal-macros.ixx",
-        "ProvidedModule": "GLFW:Internal_Macros",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}

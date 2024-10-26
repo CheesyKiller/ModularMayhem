@@ -1,0 +1,527 @@
+﻿  Build succeeded, proceeding with Git operations...
+  Git credential helper configured.
+  From https://github.com/CheesyKiller/ModularMayhem
+   * branch            HEAD       -> FETCH_HEAD
+  Fetched from origin successfully.
+  Reset to upstream successfully.
+  On branch master
+  Your branch is up to date with 'origin/master'.
+  
+  Changes not staged for commit:
+    (use "git add/rm <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+  	modified:   Bash_Scripts/git_auto_commit.bat
+  	deleted:    GLFW-Tokens.ixx
+  	deleted:    GLFW-Types.ixx
+  	modified:   GLFW.ixx
+  	modified:   Refinement.vcxproj
+  	modified:   Refinement.vcxproj.filters
+  	modified:   cocoa_time.ixx
+  	deleted:    internal.h
+  	modified:   platform.c
+  
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+  	.vs/
+  	GLFWCoreTokens.ixx
+  	GLFWCoreTypes.ixx
+  	GLFWInternal.ixx
+  	GLFWInternalCore-Functions.ixx
+  	GLFWInternalCore-Tokens.ixx
+  	GLFWInternalCore-Types.ixx
+  	GLFWInternalCore.ixx
+  	GLFWInternalEGL-Functions.ixx
+  	GLFWInternalEGL-Tokens.ixx
+  	GLFWInternalEGL-Types.ixx
+  	GLFWInternalEGL.ixx
+  	GLFWInternalOSMesa-Functions.ixx
+  	GLFWInternalOSMesa-Tokens.ixx
+  	GLFWInternalOSMesa-Types.ixx
+  	GLFWInternalOSMesa.ixx
+  	GLFWInternalVk-Functions.ixx
+  	GLFWInternalVk-Tokens.ixx
+  	GLFWInternalVk-Types.ixx
+  	GLFWInternalVk.ixx
+  	GLFWNullPlatform-Functions.ixx
+  	GLFWNullPlatform-Tokens.ixx
+  	GLFWNullPlatform-Types.ixx
+  	GLFWNullPlatform.ixx
+  	GLFWPlatform.ixx
+  	Refinement/
+  
+  no changes added to commit (use "git add" and/or "git commit -a")
+  Commit created successfully.
+  Everything up-to-date
+  Pushed to the remote repository successfully.
+  All Git operations completed successfully.
+  Scanning sources for module dependencies...
+  GLAD_4_0.ixx
+  GLAD_4_5.ixx
+  GLAD_3_0.ixx
+  GLAD_4_2.ixx
+  BlenderObject-BlenderObjectData.ixx
+  GLAD_3_1.ixx
+  GLAD_1_3.ixx
+  BlenderObject-ShapeKeyFrame.ixx
+  GLAD_4_1.ixx
+  BlenderObject-TransformKeyFrame.ixx
+  GLAD_1_4.ixx
+  ALL_MODULES.ixx
+  GLAD_1_2.ixx
+  GLAD_3_2.ixx
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(3,15): error C1083: Cannot open header unit file: 'glm/vec3.hpp': No such file or directory
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(3,15): error C1083: Cannot open header unit file: 'glm/vec3.hpp': No such file or directory
+  GLAD_4_4.ixx
+  GLAD_3_3.ixx
+  GLAD_2_1.ixx
+  GLAD_1_1.ixx
+  GLAD_2_0.ixx
+  GLAD_1_5.ixx
+  GLAD_4_3.ixx
+  BlenderObject-Material.ixx
+  BlenderObject-ShapeKey.ixx
+  GLAD_BASE.ixx
+  BlenderObject.ixx
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(4,15): error C1083: Cannot open header unit file: 'glm/vec3.hpp': No such file or directory
+D:\VisualStudio\Refinement\BlenderObject.ixx(3,15): error C1083: Cannot open header unit file: 'GLFW/glfw3.h': No such file or directory
+  GLAD_BASE-Macros.ixx
+  GLFWCoreTokens.ixx
+  GLAD.ixx
+  GLFWCoreTypes.ixx
+  GLAD_4_6.ixx
+  GLAD_BASE-Types.ixx
+  GLFW.ixx
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(503,5): warning MSB8074: Cannot read Module Dependencies file Refinement\x64\PUSH\BlenderObject-Material.ixx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(503,5): warning MSB8074: Cannot read Module Dependencies file Refinement\x64\PUSH\BlenderObject-ShapeKeyFrame.ixx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(503,5): warning MSB8074: Cannot read Module Dependencies file Refinement\x64\PUSH\BlenderObject-TransformKeyFrame.ixx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(503,5): warning MSB8074: Cannot read Module Dependencies file Refinement\x64\PUSH\BlenderObject.ixx.module.json: Expecting element 'root' from namespace ''.. Encountered 'None'  with name '', namespace ''.  The build order might be incorrect.
+  stdint.h
+  algorithm
+  thread
+  mutex
+  string
+  fstream
+  atomic
+  cmath
+  iostream
+  cstddef
+  vector
+  limits
+  Compiling...
+  vector
+  string
+  algorithm
+  GLFWInternalEGL-Functions.ixx
+  GLAD_1_1.ixx
+  limits
+  GLFWInternalEGL-Tokens.ixx
+  fstream
+  cmath
+  mutex
+  thread
+  BlenderObject.ixx
+  atomic
+  stdint.h
+  BlenderObject-TransformKeyFrame.ixx
+  BlenderObject-Material.ixx
+  iostream
+  GLFWCoreTypes.ixx
+  GLAD_BASE-Types.ixx
+  GLFWInternalCore.ixx
+  GLFWCoreTokens.ixx
+  GLFWInternalEGL.ixx
+  BlenderObject-ShapeKeyFrame.ixx
+  cstddef
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(3,21): error C7621: module partition 'Types' for module unit 'GLFWInternalEGL' was not found
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(4,31): error C2230: could not find module 'GLFWInternalCore'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(6,39): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(6,90): error C2059: syntax error: '*'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(3,29): error C7612: could not find header unit for 'glm/vec3.hpp'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(7,34): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(7,86): error C2059: syntax error: '*'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(7,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(8,34): error C2061: syntax error: identifier 'EGLDisplay'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(7,15): error C3646: 'position': unknown override specifier
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(9,32): error C2061: syntax error: identifier 'EGLint'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(3,23): error C2230: could not find module 'GLAD_1_0'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(10,34): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,43): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(11,33): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(12,31): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(8,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(13,37): error C2061: syntax error: identifier 'EGLContext'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(13,86): error C2187: syntax error: 'const' was unexpected here
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(8,15): error C3646: 'rotation': unknown override specifier
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(13,92): error C2146: syntax error: missing ';' before identifier 'EGLint'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(14,38): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(15,38): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,51): error C2146: syntax error: missing ';' before identifier 'mode'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(16,43): error C2061: syntax error: identifier 'EGLSurface'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(9,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(16,101): error C2187: syntax error: 'const' was unexpected here
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,83): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(9,15): error C3646: 'scale': unknown override specifier
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(23,45): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(16,107): error C2146: syntax error: missing ';' before identifier 'EGLint'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(17,35): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(23,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-ShapeKeyFrame.ixx(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(17,95): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(18,35): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(19,36): error C2061: syntax error: identifier 'EGLBoolean'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(20,50): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(20,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(20,69): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(20,63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(21,38): error C2061: syntax error: identifier 'GLFWglproc'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(23,48): error C2061: syntax error: identifier 'EGLDisplay'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(23,78): error C2187: syntax error: 'const' was unexpected here
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(24,57): error C2061: syntax error: identifier 'EGLSurface'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(24,98): error C2059: syntax error: '*'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Functions.ixx(24,101): error C2187: syntax error: 'const' was unexpected here
+D:\VisualStudio\Refinement\GLFWInternalEGL.ixx(3,21): error C7621: module partition 'Types' for module unit 'GLFWInternalEGL' was not found
+D:\VisualStudio\Refinement\GLFWInternalEGL.ixx(4,22): error C7621: module partition 'Tokens' for module unit 'GLFWInternalEGL' was not found
+D:\VisualStudio\Refinement\GLFWInternalEGL.ixx(5,25): error C7621: module partition 'Functions' for module unit 'GLFWInternalEGL' was not found
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(23,46): error C2086: 'int GLenum': redefinition
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(3,23): error C7612: could not find header unit for 'string'
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(4,29): error C7612: could not find header unit for 'glm/vec3.hpp'
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(7,10): error C2039: 'string': is not a member of 'std'
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(3,29): error C7612: could not find header unit for 'glm/vec3.hpp'
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(7,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(7,15): error C3646: 'position': unknown override specifier
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(8,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(8,15): error C3646: 'rotation': unknown override specifier
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(9,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(9,15): error C3646: 'scale': unknown override specifier
+D:\VisualStudio\Refinement\BlenderObject-TransformKeyFrame.ixx(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(3,21): error C7621: module partition 'Types' for module unit 'GLFWInternalEGL' was not found
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(3,29): error C7612: could not find header unit for 'GLFW/glfw3.h'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(23,53): error C2146: syntax error: missing ';' before identifier 'mode'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(23,106): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(24,46): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(24,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(4,37): error C2230: could not find module 'BlenderObject_Triangle'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(24,55): error C2146: syntax error: missing ';' before identifier 'factor'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(24,76): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(25,47): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(25,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(25,48): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(5,46): error C2230: could not find module 'BlenderObject_BlenderObjectData'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(25,55): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(25,144): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(9,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(26,47): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\BlenderObject.ixx(9,42): error C2143: syntax error: missing ',' before '&'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(26,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(26,48): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(26,55): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(26,159): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(27,50): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(27,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(27,51): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(27,58): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(27,125): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(28,50): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalCore.ixx(3,21): error C7621: module partition 'Types' for module unit 'GLFWInternalCore' was not found
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(28,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(28,51): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(28,58): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(28,156): error C2059: syntax error: ')'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(29,46): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(29,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(7,17): error C3646: 'name': unknown override specifier
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(29,47): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(29,54): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(29,151): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(8,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(30,46): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(30,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(8,15): error C3646: 'diffuse': unknown override specifier
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(30,47): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\GLFWInternalCore.ixx(4,22): error C7621: module partition 'Tokens' for module unit 'GLFWInternalCore' was not found
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(30,54): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(30,182): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(31,44): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(9,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(31,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(9,15): error C3646: 'specular': unknown override specifier
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(31,45): error C2086: 'int GLenum': redefinition
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(22,44):
+      see declaration of 'GLenum'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(31,52): error C2146: syntax error: missing ';' before identifier 'target'
+D:\VisualStudio\Refinement\BlenderObject-Material.ixx(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(31,74): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(32,47): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalCore.ixx(5,25): error C7621: module partition 'Functions' for module unit 'GLFWInternalCore' was not found
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(32,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(32,56): error C2146: syntax error: missing ';' before identifier 'n'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(32,81): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(33,44): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(33,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(33,45): error C2086: 'int GLsizei': redefinition
+D:\VisualStudio\Refinement\BlenderObject.ixx(12,15): error C2061: syntax error: identifier 'GLuint'
+      D:\VisualStudio\Refinement\GLAD_1_1.ixx(32,48):
+      see declaration of 'GLsizei'
+  
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(33,53): error C2146: syntax error: missing ';' before identifier 'n'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(33,72): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(34,35): error C2061: syntax error: identifier 'GLboolean'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(49,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(49,34): error C2146: syntax error: missing ';' before identifier 'glIsTexture'
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(52,7): error C2182: 'load_GL_RECURSIVE': this use of 'void' is not valid
+D:\VisualStudio\Refinement\GLAD_1_1.ixx(52,25): error C2065: 'GLADloadproc': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(14,50): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(14,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(14,59): error C2143: syntax error: missing ',' before '&'
+D:\VisualStudio\Refinement\BlenderObject.ixx(15,33): error C2039: 'string': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(15,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(15,39): error C2143: syntax error: missing ',' before '&'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(75,42): error C2065: 'EGLSurface': undeclared identifier
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(75,53): error C2760: syntax error: 'constant' was unexpected here; expected ')'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(75,53): error C2059: syntax error: 'constant'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(76,42): error C2065: 'EGLDisplay': undeclared identifier
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(76,53): error C2760: syntax error: 'constant' was unexpected here; expected ')'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(76,53): error C2059: syntax error: 'constant'
+D:\VisualStudio\Refinement\BlenderObject.ixx(16,38): error C2039: 'string': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(16,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(77,42): error C2065: 'EGLContext': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(16,44): error C2143: syntax error: missing ',' before '&'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(77,53): error C2760: syntax error: 'constant' was unexpected here; expected ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,62): error C2039: 'vector': is not a member of 'std'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(77,53): error C2059: syntax error: 'constant'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(78,47): error C2065: 'EGLNativeDisplayType': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(78,68): error C2760: syntax error: 'constant' was unexpected here; expected ')'
+D:\VisualStudio\Refinement\GLFWInternalEGL-Tokens.ixx(78,68): error C2059: syntax error: 'constant'
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,69): error C2065: 'glm': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,69): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,74): error C2065: 'vec3': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,62): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,62): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,62): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(17,89): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(3,11): error C2230: could not find module 'KHR'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(25,23): error C2061: syntax error: identifier 'khronos_int8_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(26,24): error C2061: syntax error: identifier 'khronos_uint8_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,33): error C2039: 'vector': is not a member of 'std'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(27,24): error C2061: syntax error: identifier 'khronos_int16_t'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(28,25): error C2061: syntax error: identifier 'khronos_uint16_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,33): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(31,25): error C2061: syntax error: identifier 'khronos_int32_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(33,24): error C2061: syntax error: identifier 'khronos_float_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,33): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(34,25): error C2061: syntax error: identifier 'khronos_float_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(49,23): error C2061: syntax error: identifier 'khronos_uint16_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(50,26): error C2061: syntax error: identifier 'khronos_uint16_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(51,24): error C2061: syntax error: identifier 'khronos_int32_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(52,25): error C2061: syntax error: identifier 'khronos_intptr_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,33): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(53,28): error C2061: syntax error: identifier 'khronos_intptr_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(18,53): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(54,27): error C2061: syntax error: identifier 'khronos_ssize_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(55,30): error C2061: syntax error: identifier 'khronos_ssize_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(56,24): error C2061: syntax error: identifier 'khronos_int64_t'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(57,27): error C2061: syntax error: identifier 'khronos_int64_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,31): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(58,25): error C2061: syntax error: identifier 'khronos_uint64_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(59,28): error C2061: syntax error: identifier 'khronos_uint64_t'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,31): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,31): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,31): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(19,56): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLAD_BASE-Types.ixx(71,33): error C2061: syntax error: identifier 'GLintptr'
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,32): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,32): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,32): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,32): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(20,58): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(21,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(21,36): error C2143: syntax error: missing ',' before '&'
+D:\VisualStudio\Refinement\BlenderObject.ixx(24,10): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(24,17): error C2065: 'Triangle': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(24,10): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(24,10): error C2062: type 'unknown-type' unexpected
+D:\VisualStudio\Refinement\BlenderObject.ixx(24,76): error C2238: unexpected token(s) preceding ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(27,23): error C3646: 'blenderData': unknown override specifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(27,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(28,12): error C3646: 'VAO': unknown override specifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(28,15): error C2059: syntax error: ','
+D:\VisualStudio\Refinement\BlenderObject.ixx(28,25): error C2238: unexpected token(s) preceding ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,10): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,17): error C2065: 'glm': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,17): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,22): error C2065: 'vec3': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,10): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,61): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,61): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,61): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,61): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,84): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(34,76): error C2530: 'vertices': references must be initialized
+D:\VisualStudio\Refinement\BlenderObject.ixx(35,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(35,23): error C2146: syntax error: missing ';' before identifier 'InterpolateTransformKeyframes'
+D:\VisualStudio\Refinement\BlenderObject.ixx(35,64): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,5): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,15): error C2146: syntax error: missing ';' before identifier 'ComputeTransformationMatrix'
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,49): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,76): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(36,103): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,45): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,10): error C2182: 'ApplyTransformationToVertices': this use of 'void' is not valid
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,52): error C2065: 'glm': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,52): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,57): error C2065: 'vec3': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,45): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,45): error C2062: type 'unknown-type' unexpected
+D:\VisualStudio\Refinement\BlenderObject.ixx(37,80): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,30): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,10): error C2182: 'ApplyShapeKeys': this use of 'void' is not valid
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,37): error C2065: 'glm': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,37): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,42): error C2065: 'vec3': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,30): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,30): error C2062: type 'unknown-type' unexpected
+D:\VisualStudio\Refinement\BlenderObject.ixx(38,70): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,10): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,17): error C2065: 'Triangle': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,10): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,57): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,64): error C2065: 'glm': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,64): error C2653: 'glm': is not a class or namespace name
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,69): error C2065: 'vec3': undeclared identifier
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,57): error C7568: argument list missing after assumed function template 'vector'
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,57): error C2144: syntax error: 'unknown-type' should be preceded by ')'
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,57): error C2144: syntax error: 'unknown-type' should be preceded by ';'
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,76): error C2530: 'vertexPositions': references must be initialized
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,104): error C2039: 'vector': is not a member of 'std'
+      D:\VisualStudio\Refinement\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,110): error C2143: syntax error: missing ';' before '<'
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,93): warning C4228: nonstandard extension used: qualifiers after comma in declarator list are ignored
+D:\VisualStudio\Refinement\BlenderObject.ixx(39,133): error C2059: syntax error: ')'
+  GLFWInternalCore-Functions.ixx
+  GLFWInternalCore-Tokens.ixx
+  GLFWInternalEGL-Types.ixx
+  GLFWInternalOSMesa-Functions.ixx
+  GLFWInternalCore-Types.ixx
+  GLFWInternalOSMesa.ixx
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(3,21): error C7621: module partition 'Types' for module unit 'GLFWInternalOSMesa' was not found
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(4,31): error C2230: could not find module 'GLFWInternalCore'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(6,43): error C2061: syntax error: identifier 'OSMesaContext'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(6,102): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(7,47): error C2061: syntax error: identifier 'OSMesaContext'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,48): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,62): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(9,44): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(9,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(9,45): error C2086: 'int OSMesaContext': redefinition
+      D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,49):
+      see declaration of 'OSMesaContext'
+  
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(9,60): error C2062: type 'void' unexpected
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(9,80): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(10,47): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(10,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(10,48): error C2086: 'int OSMesaContext': redefinition
+      D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,49):
+      see declaration of 'OSMesaContext'
+  
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(10,63): error C2062: type 'int' unexpected
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(10,87): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(11,47): error C2143: syntax error: missing ';' before '('
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(11,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(11,48): error C2086: 'int OSMesaContext': redefinition
+      D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(8,49):
+      see declaration of 'OSMesaContext'
+  
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(11,63): error C2062: type 'int' unexpected
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(11,87): error C2059: syntax error: ')'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa-Functions.ixx(12,41): error C2061: syntax error: identifier 'GLFWglproc'
+D:\VisualStudio\Refinement\GLFWInternalOSMesa.ixx(3,22): error C7621: module partition 'Tokens' for module unit 'GLFWInternalOSMesa' was not found
+D:\VisualStudio\Refinement\GLFWInternalOSMesa.ixx(4,21): error C7621: module partition 'Types' for module unit 'GLFWInternalOSMesa' was not found
+D:\VisualStudio\Refinement\GLFWInternalOSMesa.ixx(5,25): error C7621: module partition 'Functions' for module unit 'GLFWInternalOSMesa' was not found
